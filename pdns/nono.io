@@ -1,6 +1,6 @@
 $TTL 3600	; 1 hour
 @			IN SOA	ns-he briancunnie.gmail.com. (
-				1467648699 ; serial
+				1467653877 ; serial
 				10800	   ; refresh (3 hours)
 				3600	   ; retry (1 hour)
 				604800	   ; expire (1 week)
@@ -42,12 +42,10 @@ home			A	24.23.190.188
 hope			A	10.9.9.10
 			AAAA	2601:646:100:4253:bae8:56ff:fe42:225c
 hp1536			A	10.9.9.50
-ipv6			AAAA	2607:f2f8:a760::2
+ipv6			AAAA	2a01:4f8:c17:b8f::2
 kvm.nas			A	10.9.9.81
 lana			A	10.9.9.60
 			AAAA	2601:646:100:4253:200:24ff:fece:7bf8
-lara			A	208.79.93.34
-			AAAA	2607:f2f8:a760::2
 localhost		A	127.0.0.1
 mail			CNAME	ghs.google.com.
 maria			A	10.9.9.140
