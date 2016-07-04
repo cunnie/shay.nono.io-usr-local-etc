@@ -1,14 +1,13 @@
-$ORIGIN .
 $TTL 3600	; 1 hour
-nono.com		IN SOA	ns-an.nono.com. cunnie.nono.com. (
-				1465607140 ; serial
+@			IN SOA	ns-he briancunnie.gmail.com. (
+				1467648699 ; serial
 				10800	   ; refresh (3 hours)
 				3600	   ; retry (1 hour)
 				604800	   ; expire (1 week)
 				21600	   ; minimum (6 hours)
 				)
-			NS	ns-he.nono.com.
-			NS	ns-aws.nono.com.
+			NS	ns-he
+			NS	ns-aws
 			A	78.46.204.247
 			AAAA	2a01:4f8:c17:b8f::2
 			MX	10 ASPMX.L.GOOGLE.COM.
@@ -19,7 +18,7 @@ nono.com		IN SOA	ns-an.nono.com. cunnie.nono.com. (
 			MX	30 ASPMX4.GOOGLEMAIL.COM.
 			MX	30 ASPMX5.GOOGLEMAIL.COM.
 			TXT	"v=spf1 include:aspmx.googlemail.com ~all"
-$ORIGIN nono.com.
+
 *.cf			A	10.9.8.40
 airport			A	10.9.9.160
 asus			A	10.9.9.20
@@ -27,12 +26,12 @@ bosh			A	52.70.98.70
 bosh-google		A	104.154.39.128
 brendan			A	208.120.16.73
 buffalo			A	10.8.8.10
-buzzer			CNAME	nono.com.
+buzzer			CNAME	@
 calendar		CNAME	ghs.google.com.
 chacha			A	10.9.9.70
 			AAAA	2601:646:100:4253:aa20:66ff:fe1e:8fdc
 ci			A	10.9.9.150
-diarizer		CNAME	home.nono.com.
+diarizer		CNAME	home
 docs			CNAME	ghs.google.com.
 esxi.cf			A	10.9.8.10
 fedora.os		A	10.9.7.10
