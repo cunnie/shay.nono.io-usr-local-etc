@@ -1,6 +1,6 @@
 $TTL 3600	; 1 hour
 @			IN SOA	ns-he briancunnie.gmail.com. (
-				1467693448 ; serial
+				1467808035 ; serial
 				10800	   ; refresh (3 hours)
 				3600	   ; retry (1 hour)
 				604800	   ; expire (1 week)
@@ -10,13 +10,8 @@ $TTL 3600	; 1 hour
 			NS	ns-aws
 			A	78.46.204.247
 			AAAA	2a01:4f8:c17:b8f::2
-			MX	10 ASPMX.L.GOOGLE.COM.
-			MX	20 ALT1.ASPMX.L.GOOGLE.COM.
-			MX	20 ALT2.ASPMX.L.GOOGLE.COM.
-			MX	30 ASPMX2.GOOGLEMAIL.COM.
-			MX	30 ASPMX3.GOOGLEMAIL.COM.
-			MX	30 ASPMX4.GOOGLEMAIL.COM.
-			MX	30 ASPMX5.GOOGLEMAIL.COM.
+			MX	10 mx1.improvmx.com.
+			MX	20 mx2.improvmx.com.
 			TXT	"v=spf1 include:aspmx.googlemail.com ~all"
 ;   1 airport
 ;  10 hope
