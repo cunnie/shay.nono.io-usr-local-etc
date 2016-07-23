@@ -1,6 +1,6 @@
 $TTL 3600	; 1 hour
 @			IN SOA	ns-he briancunnie.gmail.com. (
-				1468771214 ; serial
+				1469248270 ; serial
 				10800	   ; refresh (3 hours)
 				3600	   ; retry (1 hour)
 				604800	   ; expire (1 week)
@@ -48,24 +48,24 @@ gateway.os		A	10.9.7.1
 home			A	73.15.134.22
 			AAAA	2001:558:6045:109:2cd5:3bb8:2121:4ea4
 hope			A	10.0.9.10
-			AAAA	2601:646:100:4253:bae8:56ff:fe42:225c
+			AAAA	2601:646:100:e8e8:bae8:56ff:fe42:225c
 hp1536			A	10.0.9.50
 iphone5			A	10.0.9.160
 ipv6			AAAA	2a01:4f8:c17:b8f::2
 kvm.nas			A	10.0.9.81
 lana			A	10.0.9.60
-			AAAA	2601:646:100:4253:200:24ff:fece:7bf8
+			AAAA	2601:646:100:e8e8:200:24ff:fece:7bf8
 localhost		A	127.0.0.1
 mail			CNAME	ghs.google.com.
 maria			A	10.0.9.140
 melody			A	10.0.9.200
 nas			A	10.0.9.80
 nexus5			A	10.0.9.170
-			AAAA	2601:646:100:4253:8e3a:e3ff:fe6f:1714
+			AAAA	2601:646:100:e8e8:8e3a:e3ff:fe6f:1714
 nexus5x			A	10.0.9.190
-			AAAA	2601:646:100:4253:64bc:0cff:fe43:3c8e
+			AAAA	2601:646:100:e8e8:64bc:0cff:fe43:3c8e
 nexus6			A	10.0.9.180
-			AAAA	2601:646:100:4253:facf:c5ff:feaa:fa70
+			AAAA	2601:646:100:e8e8:facf:c5ff:feaa:fa70
 ns-aws			A	52.0.56.137
 ns-gce			A	104.155.144.4
 ns-he			A	78.46.204.247
@@ -79,7 +79,7 @@ sites			CNAME	ghs.google.com.
 soekris			A	10.0.9.60
 start			CNAME	ghs.google.com.
 tara			A	10.0.9.30
-			AAAA	2601:646:100:4253:23e:e1ff:fec2:e1a
+			AAAA	2601:646:100:e8e8:23e:e1ff:fec2:e1a
 tbolt			A	10.0.9.90
 vcenter.cf		A	10.9.8.20
 w7			A	10.0.9.100
