@@ -1,6 +1,6 @@
 $TTL 3600	; 1 hour
 @			IN SOA	ns-he briancunnie.gmail.com. (
-				1470275615 ; serial
+				1470865180 ; serial
 				10800	   ; refresh (3 hours)
 				3600	   ; retry (1 hour)
 				604800	   ; expire (1 week)
@@ -42,6 +42,7 @@ calendar		CNAME	ghs.google.com.
 diarizer		CNAME	home
 docs			CNAME	ghs.google.com.
 esxi.cf			A	10.9.8.10
+evanbrown		A	104.197.32.33
 fedora.os		A	10.9.7.10
 gateway.cf		A	10.9.8.1
 gateway.os		A	10.9.7.1
