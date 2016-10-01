@@ -1,2 +1,6 @@
 pdns/stepnet.com
 *.key
+letsencrypt/accounts
+letsencrypt/archive
+letsencrypt/keys
+letsencrypt/live
