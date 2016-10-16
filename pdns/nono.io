@@ -1,6 +1,6 @@
 $TTL 3600	; 1 hour
 @			IN SOA	ns-he briancunnie.gmail.com. (
-				1476536433 ; serial
+				1476630319 ; serial
 				10800	   ; refresh (3 hours)
 				3600	   ; retry (1 hour)
 				604800	   ; expire (1 week)
@@ -35,6 +35,7 @@ $TTL 3600	; 1 hour
 airport			A	10.0.9.1
 asus			A	10.0.9.20
 bosh-aws		A	52.70.98.70
+bosh-azure		A	13.76.210.151
 bosh-gce		A	104.154.39.128
 brendan			A	208.120.16.73
 buzzer			CNAME	@
