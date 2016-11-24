@@ -1,6 +1,6 @@
 #!/bin/sh
 #
-# $FreeBSD: branches/2016Q2/devel/dbus/files/dbus.in 377084 2015-01-15 11:50:25Z kwm $
+# $FreeBSD: branches/2016Q4/devel/dbus/files/dbus.in 377084 2015-01-15 11:50:25Z kwm $
 #
 # PROVIDE: dbus
 # REQUIRE: DAEMON ldconfig

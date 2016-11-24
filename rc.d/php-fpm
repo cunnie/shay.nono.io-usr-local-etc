@@ -1,6 +1,6 @@
 #!/bin/sh
 #
-# $FreeBSD: branches/2016Q2/lang/php70/files/php-fpm.in 414514 2016-05-03 03:17:15Z junovitch $
+# $FreeBSD: branches/2016Q4/lang/php70/files/php-fpm.in 412802 2016-04-09 08:19:15Z ganbold $
 #
 
 # PROVIDE: php-fpm
