@@ -1,6 +1,6 @@
 $TTL 3600	; 1 hour
 @			IN SOA	ns-he briancunnie.gmail.com. (
-				1480000918 ; serial
+				1480252662 ; serial
 				10800	   ; refresh (3 hours)
 				3600	   ; retry (1 hour)
 				604800	   ; expire (1 week)
@@ -58,6 +58,7 @@ kvm.nas			A	10.0.9.81
 localhost		A	127.0.0.1
 			AAAA	::1
 lucy			A	10.0.9.150
+			AAAA	2601:646:100:e8e8:14b8:599f:78ab:2bfe
 mail			CNAME	ghs.google.com.
 maria			A	10.0.9.140
 			AAAA	2601:646:100:e8e8:1c2d:b837:b67e:f3c4
