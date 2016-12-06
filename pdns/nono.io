@@ -1,6 +1,6 @@
 $TTL 3600	; 1 hour
 @			IN SOA	ns-he briancunnie.gmail.com. (
-				1480252662 ; serial
+				1481039588 ; serial
 				10800	   ; refresh (3 hours)
 				3600	   ; retry (1 hour)
 				604800	   ; expire (1 week)
@@ -37,6 +37,7 @@ asus			A	10.0.9.20
 bosh-aws		A	52.70.98.70
 bosh-azure		A	13.76.210.151
 bosh-gce		A	104.154.39.128
+bosh-ipv4		A	52.15.73.90
 brendan			A	208.120.16.73
 buzzer			CNAME	@
 calendar		CNAME	ghs.google.com.
