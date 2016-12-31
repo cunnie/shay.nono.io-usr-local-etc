@@ -1,6 +1,6 @@
 $TTL 3600	; 1 hour
 @			IN SOA	ns-he briancunnie.gmail.com. (
-				1482542337 ; serial
+				1483190332 ; serial
 				10800	   ; refresh (3 hours)
 				3600	   ; retry (1 hour)
 				604800	   ; expire (1 week)
@@ -16,7 +16,9 @@ $TTL 3600	; 1 hour
 ;  10 hope
 ;  20 asus
 ;  30 tara
+;  40 rita
 ;  50 hp1536
+;  60 pixel
 ;  80 nas
 ;  90 tbolt
 ; 100 w7
@@ -26,6 +28,7 @@ $TTL 3600	; 1 hour
 ; 110 pi
 ; 120 pi-enet
 ; 140 maria
+; 150 lucy
 ; 160 iphone5
 ; 170 nexus5
 ; 180 nexus6
@@ -75,15 +78,15 @@ ns-azure		A	52.187.42.158
 ns-gce			A	104.155.144.4
 ns-he			A	78.46.204.247
 			AAAA	2a01:4f8:c17:b8f::2
-ns-ibm			A	169.46.34.133
-			AAAA	2607:f0d0:1e01:69::2
 opsmgr.cf		A	10.9.8.30
 pi			A	10.0.9.110
 pi-enet			A	10.0.9.120
+pixel			A	10.0.9.60
+			AAAA	2601:646:100:e8e8:7056:5452:a861:ad9a
+rita			A	10.0.9.40
 shay			A	78.46.204.247
 			AAAA	2a01:4f8:c17:b8f::2
 sites			CNAME	ghs.google.com.
-soekris			A	10.0.9.60
 start			CNAME	ghs.google.com.
 tara			A	10.0.9.30
 			AAAA	2601:646:100:e8e8:489:859:7289:a3e4
