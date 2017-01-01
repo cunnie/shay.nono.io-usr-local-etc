@@ -1,6 +1,6 @@
 $TTL 3600	; 1 hour
 @			IN SOA	ns-he briancunnie.gmail.com. (
-				1483272309 ; serial
+				1483276438 ; serial
 				10800	   ; refresh (3 hours)
 				3600	   ; retry (1 hour)
 				604800	   ; expire (1 week)
@@ -12,6 +12,8 @@ $TTL 3600	; 1 hour
 			A	78.46.204.247
 			AAAA	2a01:4f8:c17:b8f::2
 			TXT	"v=spf1 include:aspmx.googlemail.com ~all"
+			MX	mx1.improvmx.com  10
+			MX	mx2.improvmx.com  20
 ;   1 airport
 ;  10 hope
 ;  20 asus
