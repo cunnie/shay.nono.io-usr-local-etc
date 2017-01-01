@@ -1,6 +1,6 @@
 $TTL 3600	; 1 hour
 @			IN SOA	ns-he briancunnie.gmail.com. (
-				1483190332 ; serial
+				1483272309 ; serial
 				10800	   ; refresh (3 hours)
 				3600	   ; retry (1 hour)
 				604800	   ; expire (1 week)
@@ -84,6 +84,7 @@ pi-enet			A	10.0.9.120
 pixel			A	10.0.9.60
 			AAAA	2601:646:100:e8e8:7056:5452:a861:ad9a
 rita			A	10.0.9.40
+			AAAA	2601:646:100:e8e8:21f:c6ff:fe9c:1ddf
 shay			A	78.46.204.247
 			AAAA	2a01:4f8:c17:b8f::2
 sites			CNAME	ghs.google.com.
