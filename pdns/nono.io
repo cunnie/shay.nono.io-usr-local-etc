@@ -1,6 +1,6 @@
 $TTL 3600	; 1 hour
 @			IN SOA	ns-he briancunnie.gmail.com. (
-				1483283891 ; serial
+				1483377697 ; serial
 				10800	   ; refresh (3 hours)
 				3600	   ; retry (1 hour)
 				604800	   ; expire (1 week)
@@ -22,7 +22,7 @@ $TTL 3600	; 1 hour
 ;  50 hp1536
 ;  60 pixel
 ;  80 nas
-;  90 tbolt
+;  90 usb-c
 ; 100 w7
 ; 101 vm-ubuntu
 ; 102 vm-fbsd
@@ -93,7 +93,7 @@ sites			CNAME	ghs.google.com.
 start			CNAME	ghs.google.com.
 tara			A	10.0.9.30
 			AAAA	2601:646:100:e8e8:489:859:7289:a3e4
-tbolt			A	10.0.9.90
+usb-c			A	10.0.9.90
 vcenter.cf		A	10.9.8.20
 w7			A	10.0.9.100
 vm-ubuntu		A	10.0.9.101
