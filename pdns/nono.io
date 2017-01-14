@@ -36,7 +36,6 @@ $TTL 3600	; 1 hour
 ; 180 nexus6
 ; 190 nexus5x
 ; 200 melody
-*.cf			A	10.9.8.40
 airport			A	10.0.9.1
 asus			A	10.0.9.20
 bosh-aws		A	52.70.98.70
@@ -50,12 +49,8 @@ centos			A	10.0.9.102
 ci			A	104.155.144.4
 diarizer		CNAME	home
 docs			CNAME	ghs.google.com.
-esxi.cf			A	10.9.8.10
 fedora			A	10.0.9.101
 			AAAA	2601:646:100:e8e8::101
-fedora.os		A	10.9.7.10
-gateway.cf		A	10.9.8.1
-gateway.os		A	10.9.7.1
 home			A	73.15.134.22
 			AAAA	2001:558:6045:109:2cd5:3bb8:2121:4ea4
 hope			A	10.0.9.10
@@ -84,7 +79,6 @@ ns-azure		A	52.187.42.158
 ns-gce			A	104.155.144.4
 ns-he			A	78.46.204.247
 			AAAA	2a01:4f8:c17:b8f::2
-opsmgr.cf		A	10.9.8.30
 pi			A	10.0.9.110
 pi-enet			A	10.0.9.120
 pixel			A	10.0.9.60
@@ -102,7 +96,6 @@ time-home		A	73.15.134.22
 ubuntu			A	10.0.9.103
 			AAAA	2601:646:100:e8e8::103
 usb-c			A	10.0.9.90
-vcenter.cf		A	10.9.8.20
 w7			A	10.0.9.100
 www			A	78.46.204.247
 			AAAA	2a01:4f8:c17:b8f::2
