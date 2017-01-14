@@ -1,6 +1,6 @@
 $TTL 3600	; 1 hour
 @			IN SOA	ns-he briancunnie.gmail.com. (
-				1483580823 ; serial
+				1484423264 ; serial
 				10800	   ; refresh (3 hours)
 				3600	   ; retry (1 hour)
 				604800	   ; expire (1 week)
@@ -24,9 +24,9 @@ $TTL 3600	; 1 hour
 ;  80 nas
 ;  90 usb-c
 ; 100 w7
-; 101 vm-ubuntu
-; 102 vm-fbsd
-; 103 vm-yosemite
+; 101 fedora
+; 102 centos
+; 103 ubuntu
 ; 110 pi
 ; 120 pi-enet
 ; 140 maria
@@ -45,10 +45,14 @@ bosh-ipv4		A	52.15.73.90
 brendan			A	208.120.16.73
 buzzer			CNAME	@
 calendar		CNAME	ghs.google.com.
+centos			A	10.0.9.102
+			AAAA	2601:646:100:e8e8::102
 ci			A	104.155.144.4
 diarizer		CNAME	home
 docs			CNAME	ghs.google.com.
 esxi.cf			A	10.9.8.10
+fedora			A	10.0.9.101
+			AAAA	2601:646:100:e8e8::101
 fedora.os		A	10.9.7.10
 gateway.cf		A	10.9.8.1
 gateway.os		A	10.9.7.1
@@ -95,11 +99,10 @@ tara			A	10.0.9.30
 			AAAA	2601:646:100:e8e8:489:859:7289:a3e4
 time-home		A	73.15.134.22
 			AAAA	2601:646:100:e8e8:489:859:7289:a3e4
+ubuntu			A	10.0.9.103
+			AAAA	2601:646:100:e8e8::103
 usb-c			A	10.0.9.90
 vcenter.cf		A	10.9.8.20
 w7			A	10.0.9.100
-vm-ubuntu		A	10.0.9.101
-vm-fbsd			A	10.0.9.102
-vm-yosemite		A	10.0.9.103
 www			A	78.46.204.247
 			AAAA	2a01:4f8:c17:b8f::2
