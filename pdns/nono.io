@@ -1,6 +1,6 @@
 $TTL 3600	; 1 hour
 @			IN SOA	ns-he briancunnie.gmail.com. (
-				1484423264 ; serial
+				1484532615 ; serial
 				10800	   ; refresh (3 hours)
 				3600	   ; retry (1 hour)
 				604800	   ; expire (1 week)
@@ -92,7 +92,7 @@ start			CNAME	ghs.google.com.
 tara			A	10.0.9.30
 			AAAA	2601:646:100:e8e8:489:859:7289:a3e4
 time-home		A	73.15.134.22
-			AAAA	2601:646:100:e8e8:489:859:7289:a3e4
+			AAAA	2601:646:100:e8e8::101
 ubuntu			A	10.0.9.103
 			AAAA	2601:646:100:e8e8::103
 usb-c			A	10.0.9.90
