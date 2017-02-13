@@ -1,6 +1,6 @@
 $TTL 3600	; 1 hour
 @			IN SOA	ns-he briancunnie.gmail.com. (
-				1486995565 ; serial
+				1486995823 ; serial
 				10800	   ; refresh (3 hours)
 				3600	   ; retry (1 hour)
 				604800	   ; expire (1 week)
@@ -15,6 +15,7 @@ $TTL 3600	; 1 hour
 			;MX	10	mx1.improvmx.com. ; try mailgun next time
 			;MX	20	mx2.improvmx.com.
 ;   1 airport
+;  10 melody
 ;  20 asus
 ;  30 tara
 ;  40 rita
@@ -36,7 +37,6 @@ $TTL 3600	; 1 hour
 ; 170 nexus5
 ; 180 nexus6
 ; 190 nexus5x
-; 200 melody
 airport			A	10.0.9.1
 asus			A	10.0.9.20
 bosh-aws		A	52.70.98.70
@@ -69,7 +69,7 @@ lucy			A	10.0.9.150
 mail			CNAME	ghs.google.com.
 maria			A	10.0.9.140
 			AAAA	2601:646:100:e8e8:1c2d:b837:b67e:f3c4
-melody			A	10.0.9.200
+melody			A	10.0.9.10
 nas			A	10.0.9.80
 nexus5			A	10.0.9.170
 			AAAA	2601:646:100:e8e8:8e3a:e3ff:fe6f:1714
