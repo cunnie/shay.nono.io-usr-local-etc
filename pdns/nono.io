@@ -1,6 +1,6 @@
 $TTL 3600	; 1 hour
 @			IN SOA	ns-he briancunnie.gmail.com. (
-				1484532615 ; serial
+				1486993610 ; serial
 				10800	   ; refresh (3 hours)
 				3600	   ; retry (1 hour)
 				604800	   ; expire (1 week)
@@ -15,12 +15,12 @@ $TTL 3600	; 1 hour
 			;MX	10	mx1.improvmx.com. ; try mailgun next time
 			;MX	20	mx2.improvmx.com.
 ;   1 airport
-;  10 hope
 ;  20 asus
 ;  30 tara
 ;  40 rita
 ;  50 hp1536
 ;  60 pixel
+;  70 liz
 ;  80 nas
 ;  90 usb-c
 ; 100 w7
@@ -29,6 +29,7 @@ $TTL 3600	; 1 hour
 ; 103 ubuntu
 ; 110 pi
 ; 120 pi-enet
+; 130 hope
 ; 140 maria
 ; 150 lucy
 ; 160 iphone5
@@ -53,12 +54,14 @@ fedora			A	10.0.9.101
 			AAAA	2601:646:100:e8e8::101
 home			A	73.15.134.22
 			AAAA	2001:558:6045:109:2cd5:3bb8:2121:4ea4
-hope			A	10.0.9.10
+hope			A	10.0.9.130
 			AAAA	2601:646:100:e8e8:bae8:56ff:fe42:225c
 hp1536			A	10.0.9.50
 iphone5			A	10.0.9.160
 ipv6			AAAA	2a01:4f8:c17:b8f::2
 kvm.nas			A	10.0.9.81
+liz			A	10.0.9.170
+			AAAA	2601:646:100:e8e8:d563:ed28:22c1:ff1d
 localhost		A	127.0.0.1
 			AAAA	::1
 lucy			A	10.0.9.150
