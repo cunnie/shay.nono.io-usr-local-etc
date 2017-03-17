@@ -1,6 +1,6 @@
 $TTL 3600	; 1 hour
 @			IN SOA	ns-he briancunnie.gmail.com. (
-				1489348873 ; serial
+				1489718059 ; serial
 				10800	   ; refresh (3 hours)
 				3600	   ; retry (1 hour)
 				604800	   ; expire (1 week)
@@ -71,6 +71,7 @@ maria			A	10.0.9.140
 			AAAA	2601:646:100:e8e8:1c2d:b837:b67e:f3c4
 melody			A	10.0.9.10
 nas			A	10.0.9.80
+			AAAA	2601:646:100:e8e8:225:90ff:fef5:182a
 nexus5			A	10.0.9.170
 			AAAA	2601:646:100:e8e8:8e3a:e3ff:fe6f:1714
 nexus5x			A	10.0.9.190
