@@ -1,6 +1,6 @@
 $TTL 3600	; 1 hour
 @			IN SOA	ns-he briancunnie.gmail.com. (
-				1489718059 ; serial
+				1495378296 ; serial
 				10800	   ; refresh (3 hours)
 				3600	   ; retry (1 hour)
 				604800	   ; expire (1 week)
@@ -28,6 +28,7 @@ $TTL 3600	; 1 hour
 ; 101 fedora
 ; 102 centos
 ; 103 ubuntu
+; 104 fbsd
 ; 110 pi
 ; 120 pi-enet
 ; 130 hope
@@ -50,6 +51,8 @@ centos			A	10.0.9.102
 ci			A	104.155.144.4
 diarizer		CNAME	home
 docs			CNAME	ghs.google.com.
+fbsd			A	10.0.9.104
+			AAAA	2601:646:100:e8e8::104
 fedora			A	10.0.9.101
 			AAAA	2601:646:100:e8e8::101
 home			A	73.15.134.22
