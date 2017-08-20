@@ -1,6 +1,6 @@
 $TTL 3600	; 1 hour
 @			IN SOA	ns-he briancunnie.gmail.com. (
-				1503268684 ; serial
+				1503272167 ; serial
 				10800	   ; refresh (3 hours)
 				3600	   ; retry (1 hour)
 				604800	   ; expire (1 week)
@@ -56,7 +56,6 @@ fbsd			A	10.0.9.104
 fedora			A	10.0.9.101
 			AAAA	2601:646:102:95::101
 home			A	73.15.134.22
-			AAAA	2001:558:6045:109:5de4:77ef:a6f1:4895
 hope			A	10.0.9.130
 			AAAA	2601:646:102:95:bae8:56ff:fe42:225c
 hp1536			A	10.0.9.50
