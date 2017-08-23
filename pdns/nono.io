@@ -1,6 +1,6 @@
 $TTL 3600	; 1 hour
 @			IN SOA	ns-he briancunnie.gmail.com. (
-				1503272167 ; serial
+				1503518793 ; serial
 				10800	   ; refresh (3 hours)
 				3600	   ; retry (1 hour)
 				604800	   ; expire (1 week)
@@ -29,6 +29,7 @@ $TTL 3600	; 1 hour
 ; 102 centos
 ; 103 ubuntu
 ; 104 fbsd
+; 105 vcenter
 ; 110 pi
 ; 120 pi-enet
 ; 130 hope
@@ -102,6 +103,8 @@ time-home		A	73.15.134.22
 ubuntu			A	10.0.9.103
 			AAAA	2601:646:102:95::103
 usb-c			A	10.0.9.90
+vcenter			A	10.0.9.105
+			AAAA	2601:646:102:95::105
 w7			A	10.0.9.100
 www			A	78.46.204.247
 			AAAA	2a01:4f8:c17:b8f::2
