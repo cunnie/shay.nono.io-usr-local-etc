@@ -1,10 +1,10 @@
 $TTL 3600	; 1 hour
 @			IN SOA	ns-he briancunnie.gmail.com. (
-				1503518793 ; serial
-				10800	   ; refresh (3 hours)
-				3600	   ; retry (1 hour)
+				1503967043 ; serial
+				600	   ; refresh (10 minutes)
+				300	   ; retry (5 minutes)
 				604800	   ; expire (1 week)
-				21600	   ; minimum (6 hours)
+				600	   ; minimum (10 minutes)
 				)
 			NS	ns-aws
 			NS	ns-gce
