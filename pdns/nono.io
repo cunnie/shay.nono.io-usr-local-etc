@@ -1,6 +1,6 @@
 $TTL 3600	; 1 hour
 @			IN SOA	ns-he briancunnie.gmail.com. (
-				1504140767 ; serial
+				1504194125 ; serial
 				600	   ; refresh (10 minutes)
 				300	   ; retry (5 minutes)
 				604800	   ; expire (1 week)
@@ -30,7 +30,8 @@ $TTL 3600	; 1 hour
 ; 103 ubuntu
 ; 104 fbsd
 ; 105 vcenter
-; 106 bosh
+; 106 bosh-vsphere
+; 107 opsman
 ; 110 pi
 ; 120 pi-enet
 ; 130 hope
@@ -89,6 +90,8 @@ ns-azure		A	52.187.42.158
 ns-gce			A	104.155.144.4
 ns-he			A	78.46.204.247
 			AAAA	2a01:4f8:c17:b8f::2
+opsman			A	10.0.9.107
+			AAAA	2601:646:102:95::107
 pi			A	10.0.9.110
 pi-enet			A	10.0.9.120
 pixel			A	10.0.9.60
