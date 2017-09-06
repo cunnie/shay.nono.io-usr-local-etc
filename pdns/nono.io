@@ -1,6 +1,6 @@
 $TTL 3600	; 1 hour
 @			IN SOA	ns-he briancunnie.gmail.com. (
-				1504194125 ; serial
+				1504711640 ; serial
 				600	   ; refresh (10 minutes)
 				300	   ; retry (5 minutes)
 				604800	   ; expire (1 week)
@@ -44,6 +44,7 @@ $TTL 3600	; 1 hour
 airport			A	10.0.9.1
 asus			A	10.0.9.20
 bosh-aws		A	52.0.56.137
+bosh-azure		A	52.187.42.158
 bosh-gce		A	104.154.39.128
 bosh-vsphere		A	10.0.9.106
 			AAAA	2601:646:102:95::106
