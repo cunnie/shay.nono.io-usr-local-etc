@@ -1,6 +1,6 @@
-$TTL 3600	; 1 hour
+$TTL 300	; 5 minutes
 @			IN SOA	ns-he briancunnie.gmail.com. (
-				1505178722 ; serial
+				1505180142 ; serial
 				600	   ; refresh (10 minutes)
 				300	   ; retry (5 minutes)
 				604800	   ; expire (1 week)
@@ -111,7 +111,7 @@ time-home		A	73.15.134.22
 ubuntu			A	10.0.9.103
 			AAAA	2601:646:102:95::103
 usb-c			A	10.0.9.90
-vcenter			A	73.15.134.22
+vcenter			A	10.0.9.105
 			AAAA	2601:646:102:95::105
 w7			A	10.0.9.100
 www			A	78.46.204.247
