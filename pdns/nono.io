@@ -1,6 +1,6 @@
 $TTL 3600	; 1 hour
 @			IN SOA	ns-he briancunnie.gmail.com. (
-				1505177982 ; serial
+				1505178722 ; serial
 				600	   ; refresh (10 minutes)
 				300	   ; retry (5 minutes)
 				604800	   ; expire (1 week)
@@ -32,6 +32,7 @@ $TTL 3600	; 1 hour
 ; 105 vcenter
 ; 106 bosh-vsphere
 ; 107 opsman
+; 108 bosh-ipv6
 ; 110 pi
 ; 120 pi-enet
 ; 130 hope
@@ -48,6 +49,7 @@ bosh-azure		A	52.187.42.158
 bosh-gce		A	104.154.39.128
 bosh-vsphere		A	73.15.134.22
 bosh-ipv4		A	52.15.73.90
+bosh-ipv6		AAAA	2601:646:102:95::108
 brendan			A	208.120.16.73
 buzzer			CNAME	@
 calendar		CNAME	ghs.google.com.
