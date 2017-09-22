@@ -1,6 +1,6 @@
 $TTL 300	; 5 minutes
 @			IN SOA	ns-he briancunnie.gmail.com. (
-				1505180142 ; serial
+				1506044473 ; serial
 				600	   ; refresh (10 minutes)
 				300	   ; retry (5 minutes)
 				604800	   ; expire (1 week)
@@ -58,6 +58,10 @@ centos			A	10.0.9.102
 ci			A	104.155.144.4
 diarizer		CNAME	home
 docs			CNAME	ghs.google.com.
+esxi-0			A	10.0.9.40
+			AAAA	2601:646:102:95::40
+esxi-1			A	10.0.9.41
+			AAAA	2601:646:102:95::41
 fbsd			A	10.0.9.104
 			AAAA	2601:646:102:95::104
 fedora			A	10.0.9.101
@@ -98,8 +102,6 @@ pi			A	10.0.9.110
 pi-enet			A	10.0.9.120
 pixel			A	10.0.9.60
 			AAAA	2601:646:102:95:7056:5452:a861:ad9a
-esxi			A	10.0.9.40
-			AAAA	2601:646:102:95:21f:c6ff:fe9c:1ddf
 shay			A	78.46.204.247
 			AAAA	2a01:4f8:c17:b8f::2
 sites			CNAME	ghs.google.com.
