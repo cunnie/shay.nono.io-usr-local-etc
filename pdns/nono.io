@@ -1,6 +1,6 @@
 $TTL 300	; 5 minutes
 @			IN SOA	ns-he briancunnie.gmail.com. (
-				1506044473 ; serial
+				1506257070 ; serial
 				600	   ; refresh (10 minutes)
 				300	   ; retry (5 minutes)
 				604800	   ; expire (1 week)
@@ -78,7 +78,7 @@ liz			A	10.0.9.70
 localhost		A	127.0.0.1
 			AAAA	::1
 lucy			A	10.0.9.150
-			AAAA	2601:646:102:95:404:f66:a9e8:1ae
+			AAAA	2601:646:102:95:83a:1b6e:c5d2:a968
 mail			CNAME	ghs.google.com.
 maria			A	10.0.9.140
 			AAAA	2601:646:102:95:1c2d:b837:b67e:f3c4
@@ -107,7 +107,7 @@ shay			A	78.46.204.247
 sites			CNAME	ghs.google.com.
 start			CNAME	ghs.google.com.
 tara			A	10.0.9.30
-			AAAA	2601:646:102:95:489:859:7289:a3e4
+			AAAA	2601:646:102:95:10e2:5319:555f:3467
 time-home		A	73.15.134.22
 			AAAA	2601:646:102:95::101
 ubuntu			A	10.0.9.103
