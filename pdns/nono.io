@@ -1,6 +1,6 @@
 $TTL 300	; 5 minutes
 @			IN SOA	ns-he briancunnie.gmail.com. (
-				1506257070 ; serial
+				1506516257 ; serial
 				600	   ; refresh (10 minutes)
 				300	   ; retry (5 minutes)
 				604800	   ; expire (1 week)
@@ -18,11 +18,14 @@ $TTL 300	; 5 minutes
 ;  10 melody
 ;  20 asus
 ;  30 tara
-;  40 esxi
+;  40 esxi-0
+;  41 esxi-1
+;  45 kvm.esxi-0
 ;  50 hp1536
 ;  60 pixel
 ;  70 liz
 ;  80 nas
+;  81 kvm.nas
 ;  90 usb-c
 ; 100 w7
 ; 101 fedora
@@ -72,6 +75,7 @@ hope			A	10.0.9.130
 hp1536			A	10.0.9.50
 iphone5			A	10.0.9.160
 ipv6			AAAA	2a01:4f8:c17:b8f::2
+kvm.esxi-0		A	10.0.9.45
 kvm.nas			A	10.0.9.81
 liz			A	10.0.9.70
 			AAAA	2601:646:102:95:d563:ed28:22c1:ff1d
