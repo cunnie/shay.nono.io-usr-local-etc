@@ -1,6 +1,6 @@
 $TTL 300	; 5 minutes
 @			IN SOA	ns-he briancunnie.gmail.com. (
-				1506697461 ; serial
+				1506716126 ; serial
 				600	   ; refresh (10 minutes)
 				300	   ; retry (5 minutes)
 				604800	   ; expire (1 week)
@@ -37,6 +37,7 @@ $TTL 300	; 5 minutes
 ; 106 bosh-vsphere
 ; 107 om (Operations Manager)
 ; 108 bosh-ipv6
+; 109 bosh-om
 ; 110 pi
 ; 120 pi-enet
 ; 130 hope
@@ -50,6 +51,7 @@ airport			A	10.0.9.1
 bosh-aws		A	52.0.56.137
 bosh-azure		A	52.187.42.158
 bosh-gce		A	104.154.39.128
+bosh-om			A	10.0.9.109
 bosh-vsphere		A	73.15.134.22
 bosh-ipv4		A	52.15.73.90
 bosh-ipv6		AAAA	2601:646:102:95::108
