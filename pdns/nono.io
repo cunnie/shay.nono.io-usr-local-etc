@@ -1,6 +1,6 @@
 $TTL 300	; 5 minutes
 @			IN SOA	ns-he briancunnie.gmail.com. (
-				1506516257 ; serial
+				1506697461 ; serial
 				600	   ; refresh (10 minutes)
 				300	   ; retry (5 minutes)
 				604800	   ; expire (1 week)
@@ -16,7 +16,8 @@ $TTL 300	; 5 minutes
 			;MX	20	mx2.improvmx.com.
 ;   1 airport
 ;  10 melody
-;  20 asus
+;  20
+;  21-29 BOSH+IPv6
 ;  30 tara
 ;  40 esxi-0
 ;  41 esxi-1
@@ -34,19 +35,18 @@ $TTL 300	; 5 minutes
 ; 104 fbsd
 ; 105 vcenter
 ; 106 bosh-vsphere
-; 107 opsman
+; 107 om (Operations Manager)
 ; 108 bosh-ipv6
 ; 110 pi
 ; 120 pi-enet
 ; 130 hope
 ; 140 maria
 ; 150 lucy
-; 160 iphone5
+; 160
 ; 170 nexus5
 ; 180 nexus6
 ; 190 nexus5x
 airport			A	10.0.9.1
-asus			A	10.0.9.20
 bosh-aws		A	52.0.56.137
 bosh-azure		A	52.187.42.158
 bosh-gce		A	104.154.39.128
@@ -73,7 +73,6 @@ home			A	73.15.134.22
 hope			A	10.0.9.130
 			AAAA	2601:646:102:95:bae8:56ff:fe42:225c
 hp1536			A	10.0.9.50
-iphone5			A	10.0.9.160
 ipv6			AAAA	2a01:4f8:c17:b8f::2
 kvm.esxi-0		A	10.0.9.45
 kvm.nas			A	10.0.9.81
@@ -100,7 +99,7 @@ ns-azure		A	52.187.42.158
 ns-gce			A	104.155.144.4
 ns-he			A	78.46.204.247
 			AAAA	2a01:4f8:c17:b8f::2
-opsman			A	10.0.9.107
+om			A	10.0.9.107
 			AAAA	2601:646:102:95::107
 pi			A	10.0.9.110
 pi-enet			A	10.0.9.120
