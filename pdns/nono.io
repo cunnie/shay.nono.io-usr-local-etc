@@ -1,6 +1,6 @@
 $TTL 300	; 5 minutes
 @			IN SOA	ns-he briancunnie.gmail.com. (
-				1506716126 ; serial
+				1507390057 ; serial
 				600	   ; refresh (10 minutes)
 				300	   ; retry (5 minutes)
 				604800	   ; expire (1 week)
@@ -16,7 +16,7 @@ $TTL 300	; 5 minutes
 			;MX	20	mx2.improvmx.com.
 ;   1 airport
 ;  10 melody
-;  20
+;  20 vain
 ;  21-29 BOSH+IPv6
 ;  30 tara
 ;  40 esxi-0
@@ -39,6 +39,7 @@ $TTL 300	; 5 minutes
 ; 108 bosh-ipv6
 ; 109 bosh-om
 ; 110 pi
+; 111-119 om
 ; 120 pi-enet
 ; 130 hope
 ; 140 maria
@@ -118,6 +119,8 @@ time-home		A	73.15.134.22
 ubuntu			A	10.0.9.103
 			AAAA	2601:646:102:95::103
 usb-c			A	10.0.9.90
+vain			A	10.0.9.20
+			AAAA	2601:646:102:95::20
 vcenter			A	10.0.9.105
 			AAAA	2601:646:102:95::105
 w7			A	10.0.9.100
