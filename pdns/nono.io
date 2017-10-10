@@ -1,6 +1,6 @@
 $TTL 300	; 5 minutes
 @			IN SOA	ns-he briancunnie.gmail.com. (
-				1507641699 ; serial
+				1507664033 ; serial
 				600	   ; refresh (10 minutes)
 				300	   ; retry (5 minutes)
 				604800	   ; expire (1 week)
@@ -53,7 +53,7 @@ bosh-aws		A	52.0.56.137
 bosh-azure		A	52.187.42.158
 bosh-gce		A	104.154.39.128
 bosh-om			A	10.0.9.109
-bosh-vsphere		A	73.15.134.22
+bosh-vsphere		A	73.189.219.4
 bosh-ipv4		A	52.15.73.90
 bosh-ipv6		AAAA	2601:646:100:39b0::108
 brendan			A	208.120.16.73
@@ -72,7 +72,7 @@ fbsd			A	10.0.9.104
 			AAAA	2601:646:100:39b0::104
 fedora			A	10.0.9.101
 			AAAA	2601:646:100:39b0::101
-home			A	73.15.134.22
+home			A	73.189.219.4
 hope			A	10.0.9.130
 			AAAA	2601:646:100:39b0:bae8:56ff:fe42:225c
 hp1536			A	10.0.9.50
@@ -114,8 +114,8 @@ sites			CNAME	ghs.google.com.
 start			CNAME	ghs.google.com.
 tara			A	10.0.9.30
 			AAAA	2601:646:100:39b0:10e2:5319:555f:3467
-time-home		A	73.15.134.22
-			AAAA	2601:646:100:39b0::101
+time-home		A	73.189.219.4
+			AAAA	2601:646:100:39b0:20d:b9ff:fe48:9249
 ubuntu			A	10.0.9.103
 			AAAA	2601:646:100:39b0::103
 usb-c			A	10.0.9.90
