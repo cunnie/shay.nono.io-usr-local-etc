@@ -1,6 +1,6 @@
 $TTL 300	; 5 minutes
 @			IN SOA	ns-he briancunnie.gmail.com. (
-				1507664033 ; serial
+				1507733238 ; serial
 				600	   ; refresh (10 minutes)
 				300	   ; retry (5 minutes)
 				604800	   ; expire (1 week)
@@ -73,6 +73,7 @@ fbsd			A	10.0.9.104
 fedora			A	10.0.9.101
 			AAAA	2601:646:100:39b0::101
 home			A	73.189.219.4
+			AAAA	2001:558:6045:109:d64:b29:690:6710
 hope			A	10.0.9.130
 			AAAA	2601:646:100:39b0:bae8:56ff:fe42:225c
 hp1536			A	10.0.9.50
@@ -115,7 +116,7 @@ start			CNAME	ghs.google.com.
 tara			A	10.0.9.30
 			AAAA	2601:646:100:39b0:10e2:5319:555f:3467
 time-home		A	73.189.219.4
-			AAAA	2601:646:100:39b0:20d:b9ff:fe48:9249
+			AAAA	2001:558:6045:109:d64:b29:690:6710
 ubuntu			A	10.0.9.103
 			AAAA	2601:646:100:39b0::103
 usb-c			A	10.0.9.90
