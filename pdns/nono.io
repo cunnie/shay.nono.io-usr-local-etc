@@ -1,6 +1,6 @@
 $TTL 300	; 5 minutes
 @			IN SOA	ns-he briancunnie.gmail.com. (
-				1507986611 ; serial
+				1507993120 ; serial
 				600	   ; refresh (10 minutes)
 				300	   ; retry (5 minutes)
 				604800	   ; expire (1 week)
@@ -77,6 +77,7 @@ home			A	73.189.219.4
 hope			A	10.0.9.130
 			AAAA	2601:646:100:69f0:bae8:56ff:fe42:225c
 hp1536			A	10.0.9.50
+			AAAA	2601:646:100:69f0:121f:74ff:fe47:daee
 ipv6			AAAA	2a01:4f8:c17:b8f::2
 kvm.esxi-0		A	10.0.9.45
 kvm.nas			A	10.0.9.81
