@@ -1,6 +1,6 @@
 $TTL 300	; 5 minutes
 @			IN SOA	ns-he briancunnie.gmail.com. (
-				1509891866 ; serial
+				1511903228 ; serial
 				600	   ; refresh (10 minutes)
 				300	   ; retry (5 minutes)
 				604800	   ; expire (1 week)
@@ -139,3 +139,4 @@ vcenter			A	10.0.9.105
 w7			A	10.0.9.100
 www			A	78.46.204.247
 			AAAA	2a01:4f8:c17:b8f::2
+google3337941d6a665d43	CNAME	google.com.
