@@ -1,6 +1,6 @@
 $TTL 300	; 5 minutes
 @			IN SOA	ns-he briancunnie.gmail.com. (
-				1514421117 ; serial
+				1514832348 ; serial
 				600	   ; refresh (10 minutes)
 				300	   ; retry (5 minutes)
 				604800	   ; expire (1 week)
@@ -28,6 +28,7 @@ $TTL 300	; 5 minutes
 ;  80 nas
 ;  81 kvm.nas
 ;  90 usb-c
+;  99 artful
 ; 100 w7
 ; 101 fedora
 ; 102 centos
@@ -51,6 +52,8 @@ $TTL 300	; 5 minutes
 ; 180 nexus6
 ; 190 nexus5x
 airport			A	10.0.9.160
+artful			A	10.0.9.99
+			AAAA	2601:646:100:69f0::99
 bosh-aws		A	52.0.56.137
 bosh-azure		A	52.187.42.158
 bosh-gce		A	104.154.39.128
