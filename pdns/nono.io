@@ -1,6 +1,6 @@
 $TTL 300	; 5 minutes
 @			IN SOA	ns-he briancunnie.gmail.com. (
-				1514832348 ; serial
+				1515033260 ; serial
 				600	   ; refresh (10 minutes)
 				300	   ; retry (5 minutes)
 				604800	   ; expire (1 week)
@@ -86,11 +86,11 @@ hp1536			A	10.0.9.50
 ipv6			AAAA	2a01:4f8:c17:b8f::2
 ; KUBERNETES begin
 controller-0		A	10.240.0.10
-			AAAA	2601:646:100:69f2::10
+			AAAA	2601:646:100:69f2:4fa1:b5a0:ecec:68ea
 controller-1		A	10.240.0.11
-			AAAA	2601:646:100:69f2::11
+			AAAA	2601:646:100:69f2:f9c4:b67a:9bc4:4797
 controller-2		A	10.240.0.12
-			AAAA	2601:646:100:69f2::12
+			AAAA	2601:646:100:69f2:6a1d:58b3:6f06:df8b
 worker-0		A	10.240.0.20
 			AAAA	2601:646:100:69f2::20
 worker-1		A	10.240.0.21
