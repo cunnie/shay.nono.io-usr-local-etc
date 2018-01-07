@@ -1,6 +1,6 @@
 $TTL 300	; 5 minutes
 @			IN SOA	ns-he briancunnie.gmail.com. (
-				1515033260 ; serial
+				1515364956 ; serial
 				600	   ; refresh (10 minutes)
 				300	   ; retry (5 minutes)
 				604800	   ; expire (1 week)
@@ -45,8 +45,8 @@ $TTL 300	; 5 minutes
 ; 120-149 BOSH IPv6 !!
 ; 130 hope
 ; 140 maria
-; 140-149
 ; 150 lucy
+; 151 bosh-vsphere-ipv4
 ; 160 airport
 ; 170 nexus5
 ; 180 nexus6
@@ -57,10 +57,11 @@ artful			A	10.0.9.99
 bosh-aws		A	52.0.56.137
 bosh-azure		A	52.187.42.158
 bosh-gce		A	104.154.39.128
-bosh-om			A	10.0.9.109
-bosh-vsphere		A	73.189.219.4
 bosh-ipv4		A	52.15.73.90
 bosh-ipv6		AAAA	2601:646:100:69f1::6
+bosh-om			A	10.0.9.109
+bosh-vsphere		A	73.189.219.4
+bosh-vsphere-ipv4	A	10.0.9.151
 brendan			A	208.120.16.73
 buzzer			CNAME	@
 calendar		CNAME	ghs.google.com.
