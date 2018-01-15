@@ -1,6 +1,6 @@
 $TTL 300	; 5 minutes
 @			IN SOA	ns-he briancunnie.gmail.com. (
-				1515364956 ; serial
+				1515983955 ; serial
 				600	   ; refresh (10 minutes)
 				300	   ; retry (5 minutes)
 				604800	   ; expire (1 week)
@@ -119,6 +119,7 @@ nexus5x			A	10.0.9.190
 			AAAA	2601:646:100:69f0:64bc:0cff:fe43:3c8e
 nexus6			A	10.0.9.180
 			AAAA	2601:646:100:69f0:facf:c5ff:feaa:fa70
+nginx-ipv6		AAAA	2601:646:100:69f1::165
 ns-aws			A	52.0.56.137
 ns-azure		A	52.187.42.158
 ns-gce			A	104.155.144.4
