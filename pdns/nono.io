@@ -1,6 +1,6 @@
 $TTL 300	; 5 minutes
 @			IN SOA	ns-he briancunnie.gmail.com. (
-				1517407690 ; serial
+				1517423380 ; serial
 				600	   ; refresh (10 minutes)
 				300	   ; retry (5 minutes)
 				604800	   ; expire (1 week)
@@ -126,6 +126,8 @@ ns-azure		A	52.187.42.158
 ns-gce			A	104.155.144.4
 ns-he			A	78.46.204.247
 			AAAA	2a01:4f8:c17:b8f::2
+ns-vultr		A	207.148.72.47
+			AAAA	2001:19f0:4400:60d5::
 om			A	10.0.9.107
 pi			A	10.0.9.110
 pi-enet			A	10.0.9.120
