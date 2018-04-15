@@ -37,6 +37,9 @@ if [ -r /etc/defaults/periodic.conf ]; then
 	source_periodic_confs
 fi
 
+: ${security_status_pkgaudit_enable:=YES}
+: ${security_status_pkgaudit_period:=daily}
+
 # Compute PKG_DBDIR from the config file.
 pkgcmd=/usr/local/sbin/pkg
 PKG_DBDIR=`${pkgcmd} config PKG_DBDIR`
@@ -55,8 +58,12 @@ audit_pkgs() {
 	if [ $rc -ne 0 -o \
 		$(( 86400 \* "${daily_status_security_pkgaudit_expiry:-2}" )) \
 		-le $(( ${now} - ${then} + 600 )) ]; then
-		# Random delay so the mirrors do not get slammed when run by periodic(8)
-		if [ ! -t 0 ]; then
+		# When non-interactive, sleep to reduce congestion on mirrors
+		if [ -n "$anticongestion_sleeptime" ]; then
+			# In FreeBSD 12.0 the anticongestion function should be
+			# used instead of a hard-coded sleep
+			anticongestion
+		else
 			sleep `jot -r 1 0 3600`
 		fi
 		${pkgcmd} ${pkgargs} audit -F $q || { rc=$?; [ $rc -lt 3 ] && rc=3; }
@@ -160,11 +167,12 @@ audit_pkgs_all() {
 	return $rc
 }
 
+security_daily_compat_var security_status_pkgaudit_enable
+
 rc=0
 
-case "${daily_status_security_pkgaudit_enable:-YES}" in
-[Nn][Oo]) ;;
-*)
+if check_yesno_period security_status_pkgaudit_enable
+then
 	echo
 	echo 'Checking for packages with security vulnerabilities:'
 
@@ -183,7 +191,6 @@ case "${daily_status_security_pkgaudit_enable:-YES}" in
 
 		audit_pkgs_all ; rc=$?
 	fi
-	;;
-esac
+fi
 
 exit "$rc"

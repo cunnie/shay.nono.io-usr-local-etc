@@ -26,6 +26,8 @@ start_cmd=avahi_dnsconfd_start
 stop_cmd=avahi_dnsconfd_stop
 
 avahi_dnsconfd_bin=/usr/local/sbin/avahi-dnsconfd
+command=${avahi_dnsconfd_bin}
+pidfile="/var/run/avahi-dnsconfd.pid"
 
 avahi_dnsconfd_start() {
     checkyesno avahi_dnsconfd_enable && echo "Starting avahi-dnsconfd." && \

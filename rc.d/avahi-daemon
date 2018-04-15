@@ -23,6 +23,8 @@ start_cmd=avahi_daemon_start
 stop_cmd=avahi_daemon_stop
 
 avahi_daemon_bin=/usr/local/sbin/avahi-daemon
+command=${avahi_daemon_bin}
+pidfile="/var/run/avahi-daemon/pid"
 
 avahi_daemon_start() {
     checkyesno avahi_daemon_enable && echo "Starting avahi-daemon." && \
