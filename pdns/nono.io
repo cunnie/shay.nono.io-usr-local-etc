@@ -1,6 +1,6 @@
 $TTL 300	; 5 minutes
 @			IN SOA	ns-he briancunnie.gmail.com. (
-				1524935222 ; serial
+				1525303893 ; serial
 				600	   ; refresh (10 minutes)
 				300	   ; retry (5 minutes)
 				604800	   ; expire (1 week)
@@ -24,6 +24,7 @@ $TTL 300	; 5 minutes
 ;  45 kvm.esxi-0
 ;  50 hp1536
 ;  60 pixel
+;  67 vcenter-67
 ;  70 liz
 ;  80 nas
 ;  81 kvm.nas
@@ -149,6 +150,8 @@ vain			A	10.0.9.20
 			AAAA	2601:646:100:69f0:20d:b9ff:fe48:9249
 vcenter			A	10.0.9.105
 			AAAA	2601:646:100:69f0::105
+vcenter-67		A	10.0.9.67
+			AAAA	2601:646:100:69f0::67
 w7			A	10.0.9.100
 www			A	78.46.204.247
 			AAAA	2a01:4f8:c17:b8f::2
