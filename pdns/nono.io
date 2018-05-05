@@ -1,6 +1,6 @@
 $TTL 300	; 5 minutes
 @			IN SOA	ns-he briancunnie.gmail.com. (
-				1525546045 ; serial
+				1525555656 ; serial
 				600	   ; refresh (10 minutes)
 				300	   ; retry (5 minutes)
 				604800	   ; expire (1 week)
@@ -12,8 +12,8 @@ $TTL 300	; 5 minutes
 			A	78.46.204.247
 			AAAA	2a01:4f8:c17:b8f::2
 			TXT	"v=spf1 include:aspmx.googlemail.com ~all"
-			;MX	10	mx1.improvmx.com.
-			;MX	20	mx2.improvmx.com.
+			MX	10	mx1.improvmx.com.
+			MX	20	mx2.improvmx.com.
 ;   1 airport
 ;  10 melody
 ;  20 vain
@@ -151,8 +151,6 @@ vain			A	10.0.9.20
 vcenter			A	10.0.9.105
 			AAAA	2601:646:100:69f0::105
 vcenter-67		A	10.0.9.67
-			AAAA	2601:646:100:69f0::67
-vcenter-6.7		A	10.0.9.67
 			AAAA	2601:646:100:69f0::67
 w7			A	10.0.9.100
 www			A	78.46.204.247
