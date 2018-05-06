@@ -1,6 +1,6 @@
 $TTL 300	; 5 minutes
 @			IN SOA	ns-he briancunnie.gmail.com. (
-				1525620337 ; serial
+				1525620397 ; serial
 				600	   ; refresh (10 minutes)
 				300	   ; retry (5 minutes)
 				604800	   ; expire (1 week)
@@ -53,6 +53,7 @@ $TTL 300	; 5 minutes
 ; 170 nexus5
 ; 180 nexus6
 ; 190 nexus5x
+_dmarc			TXT	"v=DMARC1; p=none; rua=mailto:yoyo@nono.io"
 airport			A	10.0.9.160
 bionic			A	10.0.9.99
 			AAAA	2601:646:100:69f0::99
@@ -135,6 +136,7 @@ pi			A	10.0.9.110
 pi-enet			A	10.0.9.120
 pixel			A	10.0.9.60
 			AAAA	2601:646:100:69f0:7056:5452:a861:ad9a
+protonmail._domainkey	TXT	"v=DKIM1; k=rsa; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCjDDgvDq7rgM+3P5826/3tFt5wax8ZConczFxgVhzD/Xr0z60NRBN8pTwNuBdV09fbaO/VkahTZ7yyz7a2YjPuTkTOJCJBkMn3YG402D8A4Vxjq9gg7eWUcQh99be32gQcC3dcEVzn6wkHf/q+4V/6XcbqM5I/Eym4qUxWkbRLIwIDAQAB"
 shay			A	78.46.204.247
 			AAAA	2a01:4f8:c17:b8f::2
 sites			CNAME	ghs.google.com.
