@@ -1,6 +1,6 @@
 $TTL 300	; 5 minutes
 @			IN SOA	ns-he briancunnie.gmail.com. (
-				1525619967 ; serial
+				1525620337 ; serial
 				600	   ; refresh (10 minutes)
 				300	   ; retry (5 minutes)
 				604800	   ; expire (1 week)
@@ -11,7 +11,7 @@ $TTL 300	; 5 minutes
 			NS	ns-he
 			A	78.46.204.247
 			AAAA	2a01:4f8:c17:b8f::2
-			TXT	"v=spf1 include:aspmx.googlemail.com ~all"
+			TXT	"v=spf1 include:_spf.protonmail.ch mx ~all"
 			TXT	"protonmail-verification=b436783699a0193f50f95f63e069bb04b0ccec5f"
 			MX	10	mail.protonmail.ch.
 ;   1 airport
