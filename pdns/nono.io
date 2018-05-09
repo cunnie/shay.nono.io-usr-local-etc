@@ -1,6 +1,6 @@
 $TTL 300	; 5 minutes
 @			IN SOA	ns-he briancunnie.gmail.com. (
-				1525620397 ; serial
+				1525908682 ; serial
 				600	   ; refresh (10 minutes)
 				300	   ; retry (5 minutes)
 				604800	   ; expire (1 week)
@@ -53,7 +53,7 @@ $TTL 300	; 5 minutes
 ; 170 nexus5
 ; 180 nexus6
 ; 190 nexus5x
-_dmarc			TXT	"v=DMARC1; p=none; rua=mailto:yoyo@nono.io"
+_dmarc			TXT	"v=DMARC1; p=reject; rua=mailto:yoyo@nono.io"
 airport			A	10.0.9.160
 bionic			A	10.0.9.99
 			AAAA	2601:646:100:69f0::99
