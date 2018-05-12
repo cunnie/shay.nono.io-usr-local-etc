@@ -1,6 +1,6 @@
 $TTL 300	; 5 minutes
 @			IN SOA	ns-he briancunnie.gmail.com. (
-				1525908682 ; serial
+				1526097674 ; serial
 				600	   ; refresh (10 minutes)
 				300	   ; retry (5 minutes)
 				604800	   ; expire (1 week)
@@ -15,6 +15,9 @@ $TTL 300	; 5 minutes
 			TXT	"protonmail-verification=b436783699a0193f50f95f63e069bb04b0ccec5f"
 			MX	10	mail.protonmail.ch.
 ;   1 airport
+;   2 ubi-sw-8
+;   3 ubi-ap-0
+;   4 ubi-ap-1
 ;  10 melody
 ;  20 vain
 ;  21-29 BOSH+IPv6
@@ -145,6 +148,9 @@ tara			A	10.0.9.30
 			AAAA	2601:646:100:69f0:495:6774:f982:d90e
 time-home		A	73.189.219.4
 			AAAA	2001:558:6045:109:892f:2df3:15e3:3184
+ubi-ap-0		A	10.0.9.3
+ubi-ap-1		A	10.0.9.4
+ubi-sw-8		A	10.0.9.2
 ubuntu			A	10.0.9.103
 			AAAA	2601:646:100:69f0::103
 usb-c			A	10.0.9.90
