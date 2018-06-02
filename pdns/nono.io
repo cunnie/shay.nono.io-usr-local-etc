@@ -1,6 +1,6 @@
 $TTL 300	; 5 minutes
 @			IN SOA	ns-he briancunnie.gmail.com. (
-				1526097674 ; serial
+				1527913784 ; serial
 				600	   ; refresh (10 minutes)
 				300	   ; retry (5 minutes)
 				604800	   ; expire (1 week)
@@ -18,6 +18,7 @@ $TTL 300	; 5 minutes
 ;   2 ubi-sw-8
 ;   3 ubi-ap-0
 ;   4 ubi-ap-1
+;   5 ubikey
 ;  10 melody
 ;  20 vain
 ;  21-29 BOSH+IPv6
@@ -151,6 +152,7 @@ time-home		A	73.189.219.4
 ubi-ap-0		A	10.0.9.3
 ubi-ap-1		A	10.0.9.4
 ubi-sw-8		A	10.0.9.2
+ubikey			A	10.0.9.5
 ubuntu			A	10.0.9.103
 			AAAA	2601:646:100:69f0::103
 usb-c			A	10.0.9.90
