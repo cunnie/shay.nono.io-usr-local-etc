@@ -19,7 +19,6 @@ $TTL 300	; 5 minutes
 ;   3 ubi-ap-0
 ;   4 ubi-ap-1
 ;   5 ubikey
-;  10 melody
 ;  20 vain
 ;  21-29 BOSH+IPv6
 ;  30 tara
@@ -119,7 +118,6 @@ lucy			A	10.0.9.150
 mail			CNAME	ghs.google.com.
 maria			A	10.0.9.140
 			AAAA	2601:646:100:69f0:1c2d:b837:b67e:f3c4
-melody			A	10.0.9.10
 nas			A	10.0.9.80
 			AAAA	2601:646:100:69f0:225:90ff:fef5:182a
 nexus5			A	10.0.9.170
