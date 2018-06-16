@@ -1,6 +1,6 @@
 $TTL 300	; 5 minutes
 @			IN SOA	ns-he briancunnie.gmail.com. (
-				1529171727 ; serial
+				1529176944 ; serial
 				600	   ; refresh (10 minutes)
 				300	   ; retry (5 minutes)
 				604800	   ; expire (1 week)
@@ -14,7 +14,7 @@ $TTL 300	; 5 minutes
 			TXT	"v=spf1 include:_spf.protonmail.ch mx ~all"
 			TXT	"protonmail-verification=b436783699a0193f50f95f63e069bb04b0ccec5f"
 			MX	10	mail.protonmail.ch.
-;   1 airport
+;   1 router
 ;   2 ubi-sw-8
 ;   3 ubi-ap-0
 ;   4 ubi-ap-1
@@ -53,12 +53,8 @@ $TTL 300	; 5 minutes
 ; 140 maria
 ; 150 lucy
 ; 151 bosh-vsphere-ipv4
-; 160 airport
 ; 170 nexus5
-; 180 nexus6
-; 190 nexus5x
 _dmarc			TXT	"v=DMARC1; p=reject; rua=mailto:yoyo@nono.io"
-airport			A	10.0.9.160
 bionic			A	10.0.9.99
 			AAAA	2601:646:100:69f0::99
 bosh-aws		A	52.0.56.137
@@ -122,10 +118,6 @@ nas			A	10.0.9.80
 			AAAA	2601:646:100:69f0:225:90ff:fef5:182a
 nexus5			A	10.0.9.170
 			AAAA	2601:646:100:69f0:8e3a:e3ff:fe6f:1714
-nexus5x			A	10.0.9.190
-			AAAA	2601:646:100:69f0:64bc:0cff:fe43:3c8e
-nexus6			A	10.0.9.180
-			AAAA	2601:646:100:69f0:facf:c5ff:feaa:fa70
 nginx-ipv6		AAAA	2601:646:100:69f1::165
 nsx			A	10.0.9.49
 ns-aws			A	52.0.56.137
