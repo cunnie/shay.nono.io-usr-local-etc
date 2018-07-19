@@ -1,6 +1,6 @@
 $TTL 300	; 5 minutes
 @			IN SOA	ns-he briancunnie.gmail.com. (
-				1530722656 ; serial
+				1532039140 ; serial
 				600	   ; refresh (10 minutes)
 				300	   ; retry (5 minutes)
 				604800	   ; expire (1 week)
@@ -54,6 +54,8 @@ $TTL 300	; 5 minutes
 ; 150 lucy
 ; 151 bosh-vsphere-ipv4
 ; 160 nsx-ctl-0
+; 161 nsx-ctl-1
+; 162 nsx-ctl-2
 ; 170 nexus5
 ; 180 nsx-edge-0
 _dmarc			TXT	"v=DMARC1; p=reject; rua=mailto:yoyo@nono.io"
@@ -125,6 +127,8 @@ nexus5			A	10.0.9.170
 nginx-ipv6		AAAA	2601:646:100:69f1::165
 nsx			A	10.0.9.49
 nsx-ctl-0		A	10.0.9.160
+nsx-ctl-1		A	10.0.9.161
+nsx-ctl-2		A	10.0.9.162
 nsx-edge-0		A	10.0.9.180
 ns-aws			A	52.0.56.137
 ns-azure		A	52.187.42.158
