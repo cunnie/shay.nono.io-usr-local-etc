@@ -53,6 +53,7 @@ $TTL 300	; 5 minutes
 ; 140 maria
 ; 150 lucy
 ; 151 bosh-vsphere-ipv4
+; 152-159 bosh-vsphere-ipv4's pool
 ; 160 nsx-ctl-0
 ; 161 nsx-ctl-1
 ; 162 nsx-ctl-2
