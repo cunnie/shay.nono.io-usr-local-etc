@@ -58,6 +58,7 @@ $TTL 300	; 5 minutes
 ; 161 nsx-ctl-1
 ; 162 nsx-ctl-2
 ; 170 nexus5
+; 171-179 bosh-vsphere-ipv4's pool #2
 ; 180 nsx-edge-0
 _dmarc			TXT	"v=DMARC1; p=reject; rua=mailto:yoyo@nono.io"
 bionic			A	10.0.9.99
