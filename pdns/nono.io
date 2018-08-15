@@ -1,6 +1,6 @@
 $TTL 300	; 5 minutes
 @			IN SOA	ns-he briancunnie.gmail.com. (
-				1532039140 ; serial
+				1534303710 ; serial
 				600	   ; refresh (10 minutes)
 				300	   ; retry (5 minutes)
 				604800	   ; expire (1 week)
@@ -36,7 +36,6 @@ $TTL 300	; 5 minutes
 ;  98 xenial
 ;  99 bionic
 ; 100 w7
-; 101 fedora
 ; 102 centos
 ; 103 ubuntu
 ; 104 fbsd
@@ -60,6 +59,9 @@ $TTL 300	; 5 minutes
 ; 170 nexus5
 ; 171-179 bosh-vsphere-ipv4's pool #2
 ; 180 nsx-edge-0
+;
+; Guest
+;  99 fedora (diarizer.com)
 _dmarc			TXT	"v=DMARC1; p=reject; rua=mailto:yoyo@nono.io"
 bionic			A	10.0.9.99
 			AAAA	2601:646:100:69f0::99
@@ -86,8 +88,8 @@ esxi-1			A	10.0.9.41
 			AAAA	2601:646:100:69f0::41
 fbsd			A	10.0.9.104
 			AAAA	2601:646:100:69f0::104
-fedora			A	10.0.9.101
-			AAAA	2601:646:100:69f0::101
+fedora			A	10.2.0.99
+			AAAA	2601:646:100:69f3::99
 home			A	73.189.219.4
 			AAAA	2001:558:6045:109:892f:2df3:15e3:3184
 hope			A	10.0.9.130
