@@ -1,6 +1,6 @@
 #!/bin/sh
 #
-# $FreeBSD: branches/2018Q2/dns/powerdns/files/pdns.in 378861 2015-02-12 02:21:02Z brd $
+# $FreeBSD: branches/2018Q3/dns/powerdns/files/pdns.in 378861 2015-02-12 02:21:02Z brd $
 #
 
 # PROVIDE: pdns_server
