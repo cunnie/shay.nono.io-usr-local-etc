@@ -5,3 +5,4 @@ letsencrypt/archive
 letsencrypt/keys
 letsencrypt/live
 letsencrypt/csr
+namedb/slave/
