@@ -1,6 +1,6 @@
 $TTL 300	; 5 minutes
 @			IN SOA	ns-he briancunnie.gmail.com. (
-				1534303710 ; serial
+				1537716863 ; serial
 				600	   ; refresh (10 minutes)
 				300	   ; retry (5 minutes)
 				604800	   ; expire (1 week)
@@ -174,3 +174,9 @@ www			A	78.46.204.247
 xenial			A	10.0.9.98
 			AAAA	2601:646:100:69f0::98
 google3337941d6a665d43	CNAME	google.com.
+
+
+; PAS
+haproxy.pas		A	10.0.250.10
+*.pas			CNAME	haproxy.pas
+router.pas		A	10.0.250.11
