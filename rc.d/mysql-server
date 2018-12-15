@@ -1,6 +1,6 @@
 #!/bin/sh
 #
-# $FreeBSD: branches/2018Q3/databases/mysql56-server/files/mysql-server.in 466505 2018-04-04 20:45:14Z mmokhi $
+# $FreeBSD: branches/2018Q4/databases/mysql56-server/files/mysql-server.in 466505 2018-04-04 20:45:14Z mmokhi $
 #
 
 # PROVIDE: mysql
@@ -11,9 +11,6 @@
 # Add the following line to /etc/rc.conf to enable mysql:
 # mysql_enable (bool):	Set to "NO" by default.
 #			Set it to "YES" to enable MySQL.
-# mysql_limits (bool):	Set to "NO" by default.
-#			Set it to yes to run `limits -e -U mysql`
-#			just before mysql starts.
 # mysql_dbdir (str):	Default to "/var/db/mysql"
 #			Base database directory.
 # mysql_confdir (str):	Default to "/usr/local/etc/mysql"
@@ -36,7 +33,6 @@ rcvar=mysql_enable
 load_rc_config $name
 
 : ${mysql_enable="NO"}
-: ${mysql_limits="NO"}
 : ${mysql_dbdir="/var/db/mysql"}
 : ${mysql_confdir="/usr/local/etc/mysql"}
 if [ -f "${mysql_confdir}/my.cnf" ]; then
@@ -49,7 +45,6 @@ mysql_extra="--defaults-extra-file=${mysql_optfile}"
 fi
 
 mysql_user="mysql"
-mysql_limits_args="-e -U ${mysql_user}"
 : ${hostname:=`/bin/hostname`}
 pidfile=${mysql_pidfile:-"${mysql_dbdir}/${hostname}.pid"}
 command="/usr/sbin/daemon"
@@ -71,11 +66,7 @@ mysql_prestart()
 	if [ ! -d "${mysql_dbdir}/mysql/." ]; then
 		mysql_create_auth_tables || return 1
 	fi
-	if checkyesno mysql_limits; then
-		eval `/usr/bin/limits ${mysql_limits_args}` 2>/dev/null
-	else
-		return 0
-	fi
+	return 0
 }
 
 mysql_poststart()
