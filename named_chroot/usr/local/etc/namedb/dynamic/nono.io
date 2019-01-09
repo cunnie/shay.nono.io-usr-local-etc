@@ -1,7 +1,7 @@
 $ORIGIN .
 $TTL 300	; 5 minutes
 nono.io			IN SOA	ns-he.nono.io. briancunnie.gmail.com. (
-				1547000047 ; serial
+				1547001001 ; serial
 				600        ; refresh (10 minutes)
 				300        ; retry (5 minutes)
 				604800     ; expire (1 week)
@@ -25,7 +25,7 @@ bosh-azure		A	52.187.42.158
 bosh-gce		A	104.154.39.128
 bosh-lite		A	192.168.50.6
 bosh-om			A	10.0.9.109
-bosh-vsphere		CNAME	home
+bosh-vsphere		A	73.189.219.4
 brendan			A	208.120.16.73
 buzzer			CNAME	nono.io.
 calendar		CNAME	ghs.google.com.
