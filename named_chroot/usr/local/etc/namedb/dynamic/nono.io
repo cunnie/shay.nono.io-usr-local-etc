@@ -1,7 +1,7 @@
 $ORIGIN .
 $TTL 300	; 5 minutes
 nono.io			IN SOA	ns-he.nono.io. briancunnie.gmail.com. (
-				1547001001 ; serial
+				1550632062 ; serial
 				600        ; refresh (10 minutes)
 				300        ; retry (5 minutes)
 				604800     ; expire (1 week)
@@ -18,6 +18,8 @@ nono.io			IN SOA	ns-he.nono.io. briancunnie.gmail.com. (
 $ORIGIN nono.io.
 _dmarc			TXT	"v=DMARC1; p=reject; rua=mailto:yoyo@nono.io"
 protonmail._domainkey	TXT	"v=DKIM1; k=rsa; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCjDDgvDq7rgM+3P5826/3tFt5wax8ZConczFxgVhzD/Xr0z60NRBN8pTwNuBdV09fbaO/VkahTZ7yyz7a2YjPuTkTOJCJBkMn3YG402D8A4Vxjq9gg7eWUcQh99be32gQcC3dcEVzn6wkHf/q+4V/6XcbqM5I/Eym4qUxWkbRLIwIDAQAB"
+algorand		A	10.2.0.98
+			AAAA	2601:646:100:69f3::98
 bionic			A	10.0.9.99
 			AAAA	2601:646:100:69f0::99
 bosh-aws		A	52.0.56.137
