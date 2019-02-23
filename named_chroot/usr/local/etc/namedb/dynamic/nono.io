@@ -1,7 +1,7 @@
 $ORIGIN .
 $TTL 300	; 5 minutes
 nono.io			IN SOA	ns-he.nono.io. briancunnie.gmail.com. (
-				1550632062 ; serial
+				1550883597 ; serial
 				600        ; refresh (10 minutes)
 				300        ; retry (5 minutes)
 				604800     ; expire (1 week)
@@ -33,6 +33,8 @@ buzzer			CNAME	nono.io.
 calendar		CNAME	ghs.google.com.
 centos			A	10.0.9.102
 			AAAA	2601:646:100:69f0::102
+cf			A	73.189.219.4
+*.cf			A	73.189.219.4
 ci			A	104.155.144.4
 controller-0		A	10.240.0.10
 			AAAA	2601:646:100:69f2::10
