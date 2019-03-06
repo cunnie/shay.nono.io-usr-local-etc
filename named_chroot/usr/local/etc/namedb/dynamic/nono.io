@@ -1,7 +1,7 @@
 $ORIGIN .
 $TTL 300	; 5 minutes
 nono.io			IN SOA	ns-he.nono.io. briancunnie.gmail.com. (
-				1551747444 ; serial
+				1551879534 ; serial
 				600        ; refresh (10 minutes)
 				300        ; retry (5 minutes)
 				604800     ; expire (1 week)
@@ -100,12 +100,12 @@ ns-he			A	78.46.204.247
 			AAAA	2a01:4f8:c17:b8f::2
 ns-vultr		A	207.148.72.47
 			AAAA	2001:19f0:4400:60d5::
-nsx			A	10.0.9.49
-nsx-ctl-0		A	10.0.9.160
-nsx-ctl-1		A	10.0.9.161
-nsx-ctl-2		A	10.0.9.162
-nsx-edge-0		A	10.0.9.180
-nsx-edge-1		A	10.0.9.181
+nsx			A	10.0.9.9
+			AAAA	2601:646:100:69f0::9
+nsx-edge-0		A	10.0.9.10
+			AAAA	2601:646:100:69f0::10
+nsx-edge-1		A	10.0.9.11
+			AAAA	2601:646:100:69f0::11
 om			A	10.0.9.107
 $ORIGIN pas.nono.io.
 *			CNAME	haproxy
