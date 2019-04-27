@@ -1,5 +1,5 @@
 #
-# $FreeBSD: branches/2018Q4/security/sudo/files/pam.conf 340872 2014-01-24 00:14:07Z mat $
+# $FreeBSD: branches/2019Q2/security/sudo/files/pam.conf 340872 2014-01-24 00:14:07Z mat $
 #
 # PAM configuration for the "sudo" service
 #

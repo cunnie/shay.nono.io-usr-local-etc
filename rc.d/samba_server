@@ -4,7 +4,7 @@
 #
 
 # PROVIDE: samba_server
-# REQUIRE: NETWORKING SERVERS DAEMON ldconfig resolv ntpd
+# REQUIRE: NETWORKING SERVERS DAEMON ldconfig resolv ntpd 
 # BEFORE: LOGIN
 # KEYWORD: shutdown
 #
