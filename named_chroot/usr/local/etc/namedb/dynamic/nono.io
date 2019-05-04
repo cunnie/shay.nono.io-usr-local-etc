@@ -1,7 +1,7 @@
 $ORIGIN .
 $TTL 300	; 5 minutes
 nono.io			IN SOA	ns-he.nono.io. briancunnie.gmail.com. (
-				1555800549 ; serial
+				1556935797 ; serial
 				600        ; refresh (10 minutes)
 				300        ; retry (5 minutes)
 				604800     ; expire (1 week)
@@ -87,7 +87,7 @@ mail			CNAME	ghs.google.com.
 maria			A	10.0.9.140
 			AAAA	2601:646:100:69f0:1c2d:b837:b67e:f3c4
 nas			A	10.0.9.80
-			AAAA	2601:646:100:69f0:225:90ff:fef5:182a
+			AAAA	2601:646:100:69f0::80
 moto-x4-32g		A	10.0.9.171
 			AAAA	2601:646:100:69f0:89ae:52dc:5609:fb0d
 moto-x4-64g		A	10.0.9.172
