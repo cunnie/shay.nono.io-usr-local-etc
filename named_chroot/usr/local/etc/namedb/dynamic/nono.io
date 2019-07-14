@@ -1,7 +1,7 @@
 $ORIGIN .
 $TTL 300	; 5 minutes
 nono.io			IN SOA	ns-he.nono.io. briancunnie.gmail.com. (
-				1562981797 ; serial
+				1562981801 ; serial
 				600        ; refresh (10 minutes)
 				300        ; retry (5 minutes)
 				604800     ; expire (1 week)
@@ -44,6 +44,10 @@ controller-1		A	10.240.0.11
 			AAAA	2601:646:100:69f2::11
 controller-2		A	10.240.0.12
 			AAAA	2601:646:100:69f2::12
+cunnie-moto-x4-32g	A	10.0.9.171
+			AAAA	2601:646:100:69f0:89ae:52dc:5609:fb0d
+cunnie-moto-x4-64g	A	10.0.9.172
+			AAAA	2601:646:100:69f0:1af3:99ed:1f28:201e
 diarizer		A	10.2.0.99
 			AAAA	2601:646:100:69f3::99
 docs			CNAME	ghs.google.com.
@@ -88,10 +92,6 @@ maria			A	10.0.9.140
 			AAAA	2601:646:100:69f0:1c2d:b837:b67e:f3c4
 nas			A	10.0.9.80
 			AAAA	2601:646:100:69f0::80
-cunnie-moto-x4-32g	A	10.0.9.171
-			AAAA	2601:646:100:69f0:89ae:52dc:5609:fb0d
-cunnie-moto-x4-64g	A	10.0.9.172
-			AAAA	2601:646:100:69f0:1af3:99ed:1f28:201e
 $ORIGIN nas.nono.io.
 kvm			A	10.0.9.81
 $ORIGIN nono.io.
@@ -132,8 +132,8 @@ time-home		A	73.189.219.4
 			AAAA	2001:558:6045:109:892f:2df3:15e3:3184
 ubi-ap-0		A	10.0.9.3
 ubi-ap-1		A	10.0.9.4
-ubi-sw-8		A	10.0.9.2
 ubi-sw-24		A	10.0.9.5
+ubi-sw-8		A	10.0.9.2
 ubuntu			A	10.0.9.103
 			AAAA	2601:646:100:69f0::103
 unifi			A	10.0.9.6
