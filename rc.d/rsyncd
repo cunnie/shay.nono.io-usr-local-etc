@@ -1,6 +1,6 @@
 #!/bin/sh
 #
-# $FreeBSD: branches/2019Q2/net/rsync/files/rsyncd.in 367807 2014-09-10 09:36:24Z ehaupt $
+# $FreeBSD: branches/2019Q4/net/rsync/files/rsyncd.in 367807 2014-09-10 09:36:24Z ehaupt $
 #
 
 # PROVIDE: rsyncd
