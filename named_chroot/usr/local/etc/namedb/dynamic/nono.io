@@ -154,7 +154,7 @@ w10			A	10.0.9.100
 			AAAA	2601:646:100:69f0::100
 withings-bpm		A	10.0.9.173
 withings-scale		A	10.0.9.174
-withings-thermometer	A	10.0.9.175
+withings-thermo		A	10.0.9.175
 worker-0		A	10.240.0.20
 			AAAA	2601:646:100:69f2::20
 worker-1		A	10.240.0.21
