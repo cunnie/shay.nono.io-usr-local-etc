@@ -1,7 +1,7 @@
 $ORIGIN .
 $TTL 300	; 5 minutes
 nono.io			IN SOA	ns-he.nono.io. briancunnie.gmail.com. (
-				1587482449 ; serial
+				1587692120 ; serial
 				600        ; refresh (10 minutes)
 				300        ; retry (5 minutes)
 				604800     ; expire (1 week)
@@ -22,9 +22,6 @@ algorand		A	10.2.0.98
 			AAAA	2601:646:100:69f3::98
 bionic			A	10.0.9.99
 			AAAA	2601:646:100:69f0::99
-bosh-aws		A	52.0.56.137
-bosh-azure		A	52.187.42.158
-bosh-gce		A	104.154.39.128
 bosh-lite		A	192.168.50.6
 bosh-om			A	10.0.250.2
 bosh-vsphere		A	73.189.219.4
@@ -46,10 +43,10 @@ controller-1		A	10.240.0.11
 			AAAA	2601:646:100:69f2::11
 controller-2		A	10.240.0.12
 			AAAA	2601:646:100:69f2::12
-cunnie-moto-x4-32g	A	10.0.9.171
-			AAAA	2601:646:100:69f0:89ae:52dc:5609:fb0d
-cunnie-moto-x4-64g	A	10.0.9.172
-			AAAA	2601:646:100:69f0:1af3:99ed:1f28:201e
+roomba			A	10.0.9.171
+			AAAA	2601:646:100:69f0:beff:ebff:fe3d:181b
+moto-x4			A	10.0.9.172
+			AAAA	2601:646:100:69f0:beff:ebff:fe3d:181b
 diarizer		A	10.2.0.99
 			AAAA	2601:646:100:69f3::99
 docs			CNAME	ghs.google.com.
@@ -97,8 +94,6 @@ nas			A	10.0.9.80
 $ORIGIN nas.nono.io.
 kvm			A	10.0.9.81
 $ORIGIN nono.io.
-nexus5			A	10.0.9.170
-			AAAA	2601:646:100:69f0:8e3a:e3ff:fe6f:1714
 nginx-ipv6		AAAA	2601:646:100:69f1::165
 ns-aws			A	52.0.56.137
 ns-azure		A	52.187.42.158
@@ -126,8 +121,10 @@ haproxy			A	10.0.250.10
 router			A	10.0.250.11
 $ORIGIN nono.io.
 pi-enet			A	10.0.9.120
-pixel			A	10.0.9.60
+pixel-1			A	10.0.9.61
 			AAAA	2601:646:100:69f0:7056:5452:a861:ad9a
+pixel-4			A	10.0.9.60
+			AAAA	2601:646:100:69f0:a5ad:6e24:dbdc:a45f
 shay			A	78.46.204.247
 			AAAA	2a01:4f8:c17:b8f::2
 sites			CNAME	ghs.google.com.
@@ -155,6 +152,9 @@ vcenter-70		A	10.0.9.70
 			AAAA	2601:646:100:69f0:250:56ff:fe84:2e4a
 w10			A	10.0.9.100
 			AAAA	2601:646:100:69f0::100
+withings-bpm		A	10.0.9.173
+withings-scale		A	10.0.9.174
+withings-thermometer	A	10.0.9.175
 worker-0		A	10.240.0.20
 			AAAA	2601:646:100:69f2::20
 worker-1		A	10.240.0.21
