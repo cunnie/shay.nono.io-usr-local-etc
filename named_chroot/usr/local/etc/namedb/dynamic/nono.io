@@ -1,7 +1,7 @@
 $ORIGIN .
 $TTL 300	; 5 minutes
 nono.io			IN SOA	ns-he.nono.io. briancunnie.gmail.com. (
-				1587692120 ; serial
+				1588004104 ; serial
 				600        ; refresh (10 minutes)
 				300        ; retry (5 minutes)
 				604800     ; expire (1 week)
@@ -9,6 +9,7 @@ nono.io			IN SOA	ns-he.nono.io. briancunnie.gmail.com. (
 				)
 			NS	ns-he.nono.io.
 			NS	ns-aws.nono.io.
+			NS	ns-azure.nono.io.
 			NS	ns-gce.nono.io.
 			A	78.46.204.247
 			MX	10 mail.protonmail.ch.
