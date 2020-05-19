@@ -1,7 +1,7 @@
 $ORIGIN .
 $TTL 300	; 5 minutes
 nono.io			IN SOA	ns-he.nono.io. briancunnie.gmail.com. (
-				1588540141 ; serial
+				1589917904 ; serial
 				600        ; refresh (10 minutes)
 				300        ; retry (5 minutes)
 				604800     ; expire (1 week)
@@ -9,8 +9,8 @@ nono.io			IN SOA	ns-he.nono.io. briancunnie.gmail.com. (
 				)
 			NS	ns-he.nono.io.
 			NS	ns-aws.nono.io.
-			NS	ns-azure.nono.io.
 			NS	ns-gce.nono.io.
+			NS	ns-azure.nono.io.
 			A	78.46.204.247
 			MX	10 mail.protonmail.ch.
 			TXT	"v=spf1 include:_spf.protonmail.ch mx ~all"
@@ -44,10 +44,6 @@ controller-1		A	10.240.0.11
 			AAAA	2601:646:100:69f2::11
 controller-2		A	10.240.0.12
 			AAAA	2601:646:100:69f2::12
-roomba			A	10.0.9.171
-			AAAA	2601:646:100:69f0:beff:ebff:fe3d:181b
-moto-x4			A	10.0.9.172
-			AAAA	2601:646:100:69f0:beff:ebff:fe3d:181b
 diarizer		A	10.2.0.99
 			AAAA	2601:646:100:69f3::99
 docs			CNAME	ghs.google.com.
@@ -73,12 +69,12 @@ hope			A	10.0.9.130
 hp1536			A	10.0.9.50
 			AAAA	2601:646:100:69f0:121f:74ff:fe47:daee
 ipv6			AAAA	2a01:4f8:c17:b8f::2
-k8s-template		A	10.240.0.9
-			AAAA	2601:646:100:69f2::9
 k8s			A	73.189.219.4
 			AAAA	2601:646:100:69f2::10
 			AAAA	2601:646:100:69f2::11
 			AAAA	2601:646:100:69f2::12
+k8s-template		A	10.240.0.9
+			AAAA	2601:646:100:69f2::9
 liz			A	10.0.9.90
 			AAAA	2601:646:100:69f0:d563:ed28:22c1:ff1d
 localhost		A	127.0.0.1
@@ -90,6 +86,8 @@ maria			A	10.0.9.140
 			AAAA	2601:646:100:69f0:1c2d:b837:b67e:f3c4
 minikube		A	10.0.9.107
 			AAAA	2601:646:100:69f0::6b
+moto-x4			A	10.0.9.172
+			AAAA	2601:646:100:69f0:beff:ebff:fe3d:181b
 nas			A	10.0.9.80
 			AAAA	2601:646:100:69f0::80
 $ORIGIN nas.nono.io.
@@ -126,6 +124,8 @@ pixel-1			A	10.0.9.61
 			AAAA	2601:646:100:69f0:7056:5452:a861:ad9a
 pixel-4			A	10.0.9.60
 			AAAA	2601:646:100:69f0:a5ad:6e24:dbdc:a45f
+roomba			A	10.0.9.171
+			AAAA	2601:646:100:69f0:beff:ebff:fe3d:181b
 shay			A	78.46.204.247
 			AAAA	2a01:4f8:c17:b8f::2
 sites			CNAME	ghs.google.com.
@@ -133,9 +133,11 @@ start			CNAME	ghs.google.com.
 tara			A	10.0.9.30
 			AAAA	2601:646:100:69f0::30
 tara-ipv6		AAAA	2601:646:100:69f0::30
-telemetry		A	45.76.244.193
+tetra			A	10.0.9.160
+			AAAA	2601:646:100:69f0:1c99:e513:6145:3ecd
+telemetry		NS	telemetry
+			A	45.76.244.193
 			AAAA	2001:19f0:8001:2e4::
-			NS	telemetry.nono.io.
 time-home		A	73.189.219.4
 			AAAA	2001:558:6045:109:892f:2df3:15e3:3184
 ubi-ap-0		A	10.0.9.3
