@@ -1,7 +1,7 @@
 $ORIGIN .
 $TTL 300	; 5 minutes
 nono.io			IN SOA	ns-he.nono.io. briancunnie.gmail.com. (
-				1590186060 ; serial
+				1594598618 ; serial
 				600        ; refresh (10 minutes)
 				300        ; retry (5 minutes)
 				604800     ; expire (1 week)
@@ -24,7 +24,6 @@ algorand		A	10.2.0.98
 bionic			A	10.0.9.99
 			AAAA	2601:646:100:69f0::99
 bosh-lite		A	192.168.50.6
-bosh-om			A	10.0.250.2
 bosh-vsphere		A	73.189.219.4
 brendan			A	208.120.16.73
 buzzer			CNAME	nono.io.
@@ -107,7 +106,6 @@ nsx-edge-0		A	10.0.9.10
 			AAAA	2601:646:100:69f0::10
 nsx-edge-1		A	10.0.9.11
 			AAAA	2601:646:100:69f0::11
-om			A	10.0.9.107
 paris			A	10.0.9.21
 			AAAA	2601:646:100:69f0::21
 $ORIGIN paris.nono.io.
@@ -131,11 +129,16 @@ start			CNAME	ghs.google.com.
 tara			A	10.0.9.30
 			AAAA	2601:646:100:69f0::30
 tara-ipv6		AAAA	2601:646:100:69f0::30
-tetra			A	10.0.9.160
-			AAAA	2601:646:100:69f0:1c99:e513:6145:3ecd
+$ORIGIN tas.nono.io.
+om			A	10.0.251.10
+bosh			A	10.0.251.11
+*			A	10.0.251.12
+$ORIGIN nono.io.
 telemetry		NS	telemetry
 			A	45.76.244.193
 			AAAA	2001:19f0:8001:2e4::
+tetra			A	10.0.9.160
+			AAAA	2601:646:100:69f0:1c99:e513:6145:3ecd
 time-home		A	73.189.219.4
 			AAAA	2001:558:6045:109:892f:2df3:15e3:3184
 ubi-ap-0		A	10.0.9.3
