@@ -1,7 +1,7 @@
 $ORIGIN .
 $TTL 300	; 5 minutes
 nono.io			IN SOA	ns-he.nono.io. briancunnie.gmail.com. (
-				1594598620 ; serial
+				1595694433 ; serial
 				600        ; refresh (10 minutes)
 				300        ; retry (5 minutes)
 				604800     ; expire (1 week)
@@ -19,8 +19,6 @@ nono.io			IN SOA	ns-he.nono.io. briancunnie.gmail.com. (
 $ORIGIN nono.io.
 _dmarc			TXT	"v=DMARC1; p=reject; rua=mailto:yoyo@nono.io"
 protonmail._domainkey	TXT	"v=DKIM1; k=rsa; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCjDDgvDq7rgM+3P5826/3tFt5wax8ZConczFxgVhzD/Xr0z60NRBN8pTwNuBdV09fbaO/VkahTZ7yyz7a2YjPuTkTOJCJBkMn3YG402D8A4Vxjq9gg7eWUcQh99be32gQcC3dcEVzn6wkHf/q+4V/6XcbqM5I/Eym4qUxWkbRLIwIDAQAB"
-algorand		A	10.2.0.98
-			AAAA	2601:646:100:69f3::98
 bionic			A	10.0.9.99
 			AAAA	2601:646:100:69f0::99
 bosh-lite		A	192.168.50.6
@@ -33,6 +31,8 @@ centos			A	10.0.9.102
 cf			A	73.189.219.4
 $ORIGIN cf.nono.io.
 *			A	73.189.219.4
+haproxy			A	10.0.250.10
+router			A	10.0.250.11
 $ORIGIN nono.io.
 ci			A	104.155.144.4
 controller-0		A	10.240.0.10
@@ -61,8 +61,6 @@ fedora			A	10.0.9.106
 google3337941d6a665d43	CNAME	google.com.
 home			A	73.189.219.4
 			AAAA	2001:558:6045:109:892f:2df3:15e3:3184
-hope			A	10.0.9.130
-			AAAA	2601:646:100:69f0:bae8:56ff:fe42:225c
 hp1536			A	10.0.9.50
 			AAAA	2601:646:100:69f0:121f:74ff:fe47:daee
 ipv6			AAAA	2a01:4f8:c17:b8f::2
@@ -76,11 +74,7 @@ liz			A	10.0.9.90
 			AAAA	2601:646:100:69f0:d563:ed28:22c1:ff1d
 localhost		A	127.0.0.1
 			AAAA	::1
-lucy			A	10.0.9.150
-			AAAA	2601:646:100:69f0:d6:d06d:d36f:8510
 mail			CNAME	ghs.google.com.
-maria			A	10.0.9.140
-			AAAA	2601:646:100:69f0:1c2d:b837:b67e:f3c4
 minikube		A	10.0.9.107
 			AAAA	2601:646:100:69f0::6b
 moto-x4			A	10.0.9.172
@@ -110,10 +104,6 @@ paris			A	10.0.9.21
 			AAAA	2601:646:100:69f0::21
 $ORIGIN paris.nono.io.
 kvm			A	10.0.9.45
-$ORIGIN pas.nono.io.
-*			CNAME	haproxy
-haproxy			A	10.0.250.10
-router			A	10.0.250.11
 $ORIGIN nono.io.
 pi-enet			A	10.0.9.120
 pixel-1			A	10.0.9.61
