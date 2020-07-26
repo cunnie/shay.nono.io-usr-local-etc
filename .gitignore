@@ -1,10 +1,1 @@
-pdns/stepnet.com
-*.key
-letsencrypt/accounts
-letsencrypt/archive
-letsencrypt/keys
-letsencrypt/live
-letsencrypt/csr
-namedb/slave/
-named_chroot/
-named_chroot/usr/local/etc/namedb/slave/
+*
