@@ -1,5 +1,5 @@
 ;
-; $FreeBSD: branches/2019Q2/dns/bind912/files/named.root 459407 2018-01-19 12:33:27Z mat $
+; $FreeBSD: branches/2020Q3/dns/bind916/files/named.root 459406 2018-01-19 12:32:34Z mat $
 ;
 
 ;       This file holds the information on root name servers needed to 
