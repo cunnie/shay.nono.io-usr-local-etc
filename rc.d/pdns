@@ -1,6 +1,6 @@
 #!/bin/sh
 #
-# $FreeBSD: branches/2019Q4/dns/powerdns/files/pdns.in 511195 2019-09-05 16:51:04Z pi $
+# $FreeBSD: branches/2020Q3/dns/powerdns/files/pdns.in 535231 2020-05-14 13:02:36Z pi $
 #
 
 # PROVIDE: pdns_server
@@ -21,17 +21,17 @@
 name=pdns
 rcvar=pdns_enable
 
-command=/usr/local/sbin/pdns_server
-
-# set defaults
+load_rc_config ${name}
 
 pdns_enable=${pdns_enable:-"NO"}
 pdns_conf=${pdns_conf:-"/usr/local/etc/pdns/pdns.conf"}
-pdns_flags=${pdns_flags:-"--daemon=yes --guardian=yes"}
-
-load_rc_config ${name}
 
 required_files=${pdns_conf}
+
+pidfile=/var/run/pdns/${name}.pid
+
+command=/usr/local/sbin/pdns_server
+command_args="--daemon --guardian"
 
 monitor_cmd="${command} --daemon=no --guardian=no --control-console --loglevel=9"
 extra_commands="monitor"
