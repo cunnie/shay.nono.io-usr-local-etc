@@ -37,7 +37,6 @@ haproxy			A	10.0.250.10
 router			A	10.0.250.11
 $ORIGIN nono.io.
 ci			A	104.155.144.4
-cloudflare		NS	ns-he
 controller-0		A	10.240.0.10
 			AAAA	2601:646:100:69f2::10
 controller-1		A	10.240.0.11
