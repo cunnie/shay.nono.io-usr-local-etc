@@ -1,7 +1,7 @@
 $ORIGIN .
 $TTL 300	; 5 minutes
 nono.io			IN SOA	ns-he.nono.io. briancunnie.gmail.com. (
-				1606579462 ; serial
+				1606594073 ; serial
 				600        ; refresh (10 minutes)
 				300        ; retry (5 minutes)
 				604800     ; expire (1 week)
@@ -16,7 +16,9 @@ nono.io			IN SOA	ns-he.nono.io. briancunnie.gmail.com. (
 			AAAA	2a01:4f8:c17:b8f::2
 $ORIGIN nono.io.
 _dmarc			TXT	"v=DMARC1; p=reject; rua=mailto:yoyo@nono.io"
-protonmail._domainkey	TXT	"v=DKIM1; k=rsa; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCjDDgvDq7rgM+3P5826/3tFt5wax8ZConczFxgVhzD/Xr0z60NRBN8pTwNuBdV09fbaO/VkahTZ7yyz7a2YjPuTkTOJCJBkMn3YG402D8A4Vxjq9gg7eWUcQh99be32gQcC3dcEVzn6wkHf/q+4V/6XcbqM5I/Eym4qUxWkbRLIwIDAQAB"
+protonmail._domainkey	CNAME	protonmail.domainkey.dpxfut4a5wa5rl55p2q5ghiiyozieqieg5zl3wsydxdvop4hmiokq.domains.proton.ch.
+protonmail2._domainkey	CNAME	protonmail2.domainkey.dpxfut4a5wa5rl55p2q5ghiiyozieqieg5zl3wsydxdvop4hmiokq.domains.proton.ch.
+protonmail3._domainkey	CNAME	protonmail3.domainkey.dpxfut4a5wa5rl55p2q5ghiiyozieqieg5zl3wsydxdvop4hmiokq.domains.proton.ch.
 aasfmarin		A	10.0.9.98
 			AAAA	2601:646:100:69f0::98
 bionic			A	10.0.9.99
