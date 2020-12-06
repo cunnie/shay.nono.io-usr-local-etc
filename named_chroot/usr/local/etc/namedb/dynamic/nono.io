@@ -1,7 +1,7 @@
 $ORIGIN .
 $TTL 300	; 5 minutes
 nono.io			IN SOA	ns-he.nono.io. briancunnie.gmail.com. (
-				1606594073 ; serial
+				1607218753 ; serial
 				600        ; refresh (10 minutes)
 				300        ; retry (5 minutes)
 				604800     ; expire (1 week)
@@ -139,6 +139,7 @@ ubi-ap-0		A	10.0.9.3
 ubi-ap-1		A	10.0.9.4
 ubi-sw-24		A	10.0.9.5
 ubi-sw-8		A	10.0.9.2
+ubi-ap-nano		A	10.0.9.7
 ubuntu			A	10.0.9.103
 			AAAA	2601:646:100:69f0::103
 unifi			A	10.0.9.6
