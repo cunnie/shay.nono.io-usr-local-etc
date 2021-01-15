@@ -1,7 +1,7 @@
 $ORIGIN .
 $TTL 300	; 5 minutes
 nono.io			IN SOA	ns-he.nono.io. briancunnie.gmail.com. (
-				1607218753 ; serial
+				1610734985 ; serial
 				600        ; refresh (10 minutes)
 				300        ; retry (5 minutes)
 				604800     ; expire (1 week)
@@ -16,9 +16,11 @@ nono.io			IN SOA	ns-he.nono.io. briancunnie.gmail.com. (
 			AAAA	2a01:4f8:c17:b8f::2
 $ORIGIN nono.io.
 _dmarc			TXT	"v=DMARC1; p=reject; rua=mailto:yoyo@nono.io"
-protonmail._domainkey	CNAME	protonmail.domainkey.dpxfut4a5wa5rl55p2q5ghiiyozieqieg5zl3wsydxdvop4hmiokq.domains.proton.ch.
-protonmail2._domainkey	CNAME	protonmail2.domainkey.dpxfut4a5wa5rl55p2q5ghiiyozieqieg5zl3wsydxdvop4hmiokq.domains.proton.ch.
-protonmail3._domainkey	CNAME	protonmail3.domainkey.dpxfut4a5wa5rl55p2q5ghiiyozieqieg5zl3wsydxdvop4hmiokq.domains.proton.ch.
+$ORIGIN _domainkey.nono.io.
+protonmail		CNAME	protonmail.domainkey.dpxfut4a5wa5rl55p2q5ghiiyozieqieg5zl3wsydxdvop4hmiokq.domains.proton.ch.
+protonmail2		CNAME	protonmail2.domainkey.dpxfut4a5wa5rl55p2q5ghiiyozieqieg5zl3wsydxdvop4hmiokq.domains.proton.ch.
+protonmail3		CNAME	protonmail3.domainkey.dpxfut4a5wa5rl55p2q5ghiiyozieqieg5zl3wsydxdvop4hmiokq.domains.proton.ch.
+$ORIGIN nono.io.
 aasfmarin		A	10.0.9.98
 			AAAA	2601:646:100:69f0::98
 bionic			A	10.0.9.99
@@ -137,9 +139,9 @@ time-home		A	73.189.219.4
 			AAAA	2001:558:6045:109:892f:2df3:15e3:3184
 ubi-ap-0		A	10.0.9.3
 ubi-ap-1		A	10.0.9.4
+ubi-ap-nano		A	10.0.9.7
 ubi-sw-24		A	10.0.9.5
 ubi-sw-8		A	10.0.9.2
-ubi-ap-nano		A	10.0.9.7
 ubuntu			A	10.0.9.103
 			AAAA	2601:646:100:69f0::103
 unifi			A	10.0.9.6
@@ -165,3 +167,5 @@ worker-2		A	10.240.0.22
 			AAAA	2601:646:100:69f2::22
 www			A	78.46.204.247
 			AAAA	2a01:4f8:c17:b8f::2
+xenial			A	10.0.9.97
+			AAAA	2601:646:100:69f0::61
