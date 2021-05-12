@@ -1,7 +1,7 @@
 $ORIGIN .
 $TTL 300	; 5 minutes
 nono.io			IN SOA	ns-he.nono.io. briancunnie.gmail.com. (
-				1614694882 ; serial
+				1620858662 ; serial
 				600        ; refresh (10 minutes)
 				300        ; retry (5 minutes)
 				604800     ; expire (1 week)
@@ -116,6 +116,8 @@ pixel-4			A	10.0.9.60
 			AAAA	2601:646:100:69f0:a5ad:6e24:dbdc:a45f
 roomba			A	10.0.9.171
 			AAAA	2601:646:100:69f0:beff:ebff:fe3d:181b
+s3			A	73.189.219.4
+			AAAA	2601:646:100:69f0::80
 shay			A	78.46.204.247
 			AAAA	2a01:4f8:c17:b8f::2
 sites			CNAME	ghs.google.com.
