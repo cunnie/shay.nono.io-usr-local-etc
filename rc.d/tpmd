@@ -1,7 +1,5 @@
 #!/bin/sh
 
-# $FreeBSD: branches/2019Q4/emulators/tpm-emulator/files/tpmd.in 415449 2016-05-18 13:53:45Z hrs $
-#
 # PROVIDE: tpmd
 # REQUIRE: SERVERS
 # BEFORE:  tcsd

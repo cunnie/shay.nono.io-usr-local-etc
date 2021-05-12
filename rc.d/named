@@ -1,7 +1,4 @@
 #!/bin/sh
-#
-# $FreeBSD: branches/2020Q3/dns/bind916/files/named.in 503955 2019-06-11 12:18:36Z mat $
-#
 
 # PROVIDE: named
 # REQUIRE: NETWORKING ldconfig syslogd

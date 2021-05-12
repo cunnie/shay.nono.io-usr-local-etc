@@ -1,7 +1,5 @@
 #!/bin/sh
 
-# $FreeBSD: branches/2019Q4/security/trousers/files/tcsd.in 415449 2016-05-18 13:53:45Z hrs $
-#
 # PROVIDE: tcsd
 # REQUIRE: SERVERS tpmd
 # BEFORE:  named hastd kerberos

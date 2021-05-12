@@ -1,7 +1,4 @@
 #!/bin/sh
-#
-# $FreeBSD: branches/2020Q3/dns/powerdns/files/pdns.in 535231 2020-05-14 13:02:36Z pi $
-#
 
 # PROVIDE: pdns_server
 # REQUIRE: DAEMON SERVERS mysql postgresql slapd
@@ -31,7 +28,7 @@ required_files=${pdns_conf}
 pidfile=/var/run/pdns/${name}.pid
 
 command=/usr/local/sbin/pdns_server
-command_args="--daemon --guardian"
+command_args="${pdns_flags} --daemon --guardian"
 
 monitor_cmd="${command} --daemon=no --guardian=no --control-console --loglevel=9"
 extra_commands="monitor"
