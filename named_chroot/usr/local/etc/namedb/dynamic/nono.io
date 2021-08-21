@@ -1,7 +1,7 @@
 $ORIGIN .
 $TTL 300	; 5 minutes
 nono.io			IN SOA	ns-he.nono.io. briancunnie.gmail.com. (
-				1629542909 ; serial
+				1629568606 ; serial
 				600        ; refresh (10 minutes)
 				300        ; retry (5 minutes)
 				604800     ; expire (1 week)
@@ -84,8 +84,6 @@ localhost		A	127.0.0.1
 mail			CNAME	ghs.google.com.
 minikube		A	10.0.9.107
 			AAAA	2601:646:100:69f0::6b
-moto-x4			A	10.0.9.172
-			AAAA	2601:646:100:69f0:beff:ebff:fe3d:181b
 nas			A	10.0.9.80
 			AAAA	2601:646:100:69f0::80
 $ORIGIN nas.nono.io.
@@ -106,22 +104,9 @@ ns-he			A	78.46.204.247
 			AAAA	2a01:4f8:c17:b8f::2
 ns-vultr		A	207.148.72.47
 			AAAA	2001:19f0:4400:60d5::
-nsx			A	10.0.9.9
-			AAAA	2601:646:100:69f0::9
-nsx-edge-0		A	10.0.9.10
-			AAAA	2601:646:100:69f0::10
-nsx-edge-1		A	10.0.9.11
-			AAAA	2601:646:100:69f0::11
-paris			A	10.0.9.21
-			AAAA	2601:646:100:69f0::21
-$ORIGIN paris.nono.io.
-kvm			A	10.0.9.45
-$ORIGIN nono.io.
 pi-enet			A	10.0.9.120
 pixel-1			A	10.0.9.61
 			AAAA	2601:646:100:69f0:7056:5452:a861:ad9a
-pixel-4			A	10.0.9.60
-			AAAA	2601:646:100:69f0:a5ad:6e24:dbdc:a45f
 roomba			A	10.0.9.171
 			AAAA	2601:646:100:69f0:beff:ebff:fe3d:181b
 s3			A	73.189.219.4
@@ -140,9 +125,6 @@ om			A	10.0.251.10
 $ORIGIN tas-apps.nono.io.
 *			A	10.0.251.12
 $ORIGIN nono.io.
-telemetry		NS	telemetry
-			A	45.76.244.193
-			AAAA	2001:19f0:8001:2e4::
 tetra			A	10.0.9.160
 			AAAA	2601:646:100:69f0:1015:6480:ca5:acf2
 time-home		A	73.189.219.4
