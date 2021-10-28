@@ -1,7 +1,7 @@
 $ORIGIN .
 $TTL 300	; 5 minutes
 nono.io			IN SOA	ns-he.nono.io. briancunnie.gmail.com. (
-				1635390862 ; serial
+				1635439404 ; serial
 				600        ; refresh (10 minutes)
 				300        ; retry (5 minutes)
 				604800     ; expire (1 week)
@@ -123,8 +123,8 @@ shay			A	78.46.204.247
 sites			CNAME	ghs.google.com.
 start			CNAME	ghs.google.com.
 tara			A	10.0.9.30
-			AAAA	2601:646:100:69f0:1c09:bae7:aa42:146c
-tara-ipv6		AAAA	2601:646:100:69f0:1c09:bae7:aa42:146c
+			AAAA	2601:646:100:69f0:1863:5523:cc13:e013
+tara-ipv6		AAAA	2601:646:100:69f0:1863:5523:cc13:e013
 $ORIGIN tas.nono.io.
 *			A	10.0.251.12
 bosh			A	10.0.251.11
