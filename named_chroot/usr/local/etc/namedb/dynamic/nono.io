@@ -1,7 +1,7 @@
 $ORIGIN .
 $TTL 300	; 5 minutes
 nono.io			IN SOA	ns-he.nono.io. briancunnie.gmail.com. (
-				1635439404 ; serial
+				1636943767 ; serial
 				600        ; refresh (10 minutes)
 				300        ; retry (5 minutes)
 				604800     ; expire (1 week)
@@ -46,9 +46,9 @@ controller-1		A	10.240.0.11
 			AAAA	2601:646:100:69f2::11
 controller-2		A	10.240.0.12
 			AAAA	2601:646:100:69f2::12
+deca			A	10.0.9.10
 diarizer		A	10.2.0.99
 			AAAA	2601:646:100:69f3::99
-deca			A	10.0.9.10
 docs			CNAME	ghs.google.com.
 esxi-1			A	10.0.9.41
 			AAAA	2601:646:100:69f0::29
@@ -66,6 +66,7 @@ fedora			A	10.0.9.106
 			AAAA	2601:646:100:69f0::106
 focal			A	10.0.9.108
 			AAAA	2601:646:100:69f0:0:ff:fe00:6c
+gke			A	104.155.144.4
 google3337941d6a665d43	CNAME	google.com.
 home			A	73.189.219.4
 			AAAA	2001:558:6045:109:892f:2df3:15e3:3184
