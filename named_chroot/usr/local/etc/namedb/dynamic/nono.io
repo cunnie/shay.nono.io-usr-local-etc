@@ -1,7 +1,7 @@
 $ORIGIN .
 $TTL 300	; 5 minutes
 nono.io			IN SOA	ns-he.nono.io. briancunnie.gmail.com. (
-				1655589192 ; serial
+				1655602639 ; serial
 				600        ; refresh (10 minutes)
 				300        ; retry (5 minutes)
 				604800     ; expire (1 week)
@@ -21,23 +21,19 @@ protonmail		CNAME	protonmail.domainkey.dpxfut4a5wa5rl55p2q5ghiiyozieqieg5zl3wsyd
 protonmail2		CNAME	protonmail2.domainkey.dpxfut4a5wa5rl55p2q5ghiiyozieqieg5zl3wsydxdvop4hmiokq.domains.proton.ch.
 protonmail3		CNAME	protonmail3.domainkey.dpxfut4a5wa5rl55p2q5ghiiyozieqieg5zl3wsydxdvop4hmiokq.domains.proton.ch.
 $ORIGIN nono.io.
-aasfmarin		A	10.9.9.98
-			AAAA	2601:646:100:69f0::98
 atom			A	10.9.9.10
 			AAAA	2601:646:100:69f0::a
 $ORIGIN atom.nono.io.
 kvm			A	10.9.9.11
 $ORIGIN nono.io.
 bionic			A	10.9.9.99
-			AAAA	2601:646:100:69f0::99
+			AAAA	2601:646:100:69f0::63
 blog			CNAME	cunnie.github.io.
 bosh-lite		A	192.168.50.6
 bosh-vsphere		A	73.189.219.4
 brendan			A	208.120.16.73
 buzzer			CNAME	nono.io.
 calendar		CNAME	ghs.google.com.
-centos			A	10.9.9.102
-			AAAA	2601:646:100:69f0::102
 cf			A	73.189.219.4
 $ORIGIN cf.nono.io.
 *			A	73.189.219.4
@@ -46,11 +42,11 @@ router			A	10.0.250.11
 $ORIGIN nono.io.
 ci			A	104.155.144.4
 controller-0		A	10.240.0.10
-			AAAA	2601:646:100:69f2::10
+			AAAA	2601:646:100:69f2::a
 controller-1		A	10.240.0.11
-			AAAA	2601:646:100:69f2::11
+			AAAA	2601:646:100:69f2::b
 controller-2		A	10.240.0.12
-			AAAA	2601:646:100:69f2::12
+			AAAA	2601:646:100:69f2::c
 docs			CNAME	ghs.google.com.
 esxi-1			A	10.9.9.41
 			AAAA	2601:646:100:69f0::29
@@ -63,7 +59,7 @@ $ORIGIN esxi-2.nono.io.
 kvm			A	10.9.9.47
 $ORIGIN nono.io.
 fbsd			A	10.9.9.104
-			AAAA	2601:646:100:69f0::104
+			AAAA	2601:646:100:69f0::68
 fedora			A	10.9.9.106
 			AAAA	2601:646:100:69f0::6a
 focal			A	10.9.9.108
@@ -84,9 +80,9 @@ ipv6			AAAA	2a01:4f8:c17:b8f::2
 jammy			A	10.9.9.114
 			AAAA	2601:646:100:69f0:ad62:748f:f1e6:d835
 k8s			A	73.189.219.4
-			AAAA	2601:646:100:69f2::10
-			AAAA	2601:646:100:69f2::11
-			AAAA	2601:646:100:69f2::12
+			AAAA	2601:646:100:69f2::a
+			AAAA	2601:646:100:69f2::b
+			AAAA	2601:646:100:69f2::c
 k8s-template		A	10.240.0.9
 			AAAA	2601:646:100:69f2::9
 liz			A	10.9.9.90
@@ -99,7 +95,7 @@ minikube		A	10.9.9.107
 morgoth			A	10.9.9.31
 			AAAA	2601:646:100:69f0:7d:9069:ea74:e3a
 nas			A	10.9.9.80
-			AAAA	2601:646:100:69f0::80
+			AAAA	2601:646:100:69f0::50
 $ORIGIN nas.nono.io.
 kvm			A	10.9.9.81
 $ORIGIN nono.io.
@@ -129,7 +125,7 @@ pixel-1			A	10.9.9.61
 roomba			A	10.9.9.171
 			AAAA	2601:646:100:69f0:beff:ebff:fe3d:181b
 s3			A	73.189.219.4
-			AAAA	2601:646:100:69f0::80
+			AAAA	2601:646:100:69f0::50
 shay			A	78.46.204.247
 			AAAA	2a01:4f8:c17:b8f::2
 sites			CNAME	ghs.google.com.
@@ -155,29 +151,31 @@ ubi-sw-24		A	10.9.9.5
 ubi-sw-8		A	10.9.9.2
 ubi-usw-flex-xg		A	10.9.9.8
 ubuntu			A	10.9.9.103
-			AAAA	2601:646:100:69f0::103
+			AAAA	2601:646:100:69f0::67
 unifi			A	10.9.9.6
 usb-c			A	10.9.9.151
 vain			A	10.9.9.20
 			AAAA	2601:646:100:69f0:20d:b9ff:fe48:9249
 vault			A	104.155.144.4
 vcenter			A	10.9.9.105
-			AAAA	2601:646:100:69f0::105
+			AAAA	2601:646:100:69f0::69
 vcenter-67		A	10.9.9.67
-			AAAA	2601:646:100:69f0::67
+			AAAA	2601:646:100:69f0::43
 vcenter-70		A	10.9.9.70
 			AAAA	2601:646:100:69f0::46
 w10			A	10.9.9.100
-			AAAA	2601:646:100:69f0::100
+			AAAA	2601:646:100:69f0::64
+w22			A	10.9.9.115
+			AAAA	2601:646:100:69f0::73
 withings-bpm		A	10.9.9.173
 withings-scale		A	10.9.9.174
 withings-thermo		A	10.9.9.175
 worker-0		A	10.240.0.20
-			AAAA	2601:646:100:69f2::20
+			AAAA	2601:646:100:69f2::14
 worker-1		A	10.240.0.21
-			AAAA	2601:646:100:69f2::21
+			AAAA	2601:646:100:69f2::15
 worker-2		A	10.240.0.22
-			AAAA	2601:646:100:69f2::22
+			AAAA	2601:646:100:69f2::16
 www			A	78.46.204.247
 			AAAA	2a01:4f8:c17:b8f::2
 xenial			A	10.9.9.97
