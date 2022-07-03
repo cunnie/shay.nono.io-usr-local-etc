@@ -1,7 +1,7 @@
 $ORIGIN .
 $TTL 300	; 5 minutes
 nono.io			IN SOA	ns-he.nono.io. briancunnie.gmail.com. (
-				1655771988 ; serial
+				1656815565 ; serial
 				600        ; refresh (10 minutes)
 				300        ; retry (5 minutes)
 				604800     ; expire (1 week)
@@ -40,8 +40,8 @@ calendar		CNAME	ghs.google.com.
 cf			A	73.189.219.4
 $ORIGIN cf.nono.io.
 *			A	73.189.219.4
-haproxy			A	10.0.250.10
-router			A	10.0.250.11
+haproxy			A	10.9.250.10
+router			A	10.9.250.11
 $ORIGIN nono.io.
 ci			A	104.155.144.4
 controller-0		A	10.240.0.10
@@ -137,11 +137,11 @@ tara			A	10.9.9.30
 			AAAA	2601:646:100:69f0:1863:5523:cc13:e013
 tara-ipv6		AAAA	2601:646:100:69f0:1863:5523:cc13:e013
 $ORIGIN tas.nono.io.
-*			A	10.0.251.12
-bosh			A	10.0.251.11
-om			A	10.0.251.10
+*			A	10.9.251.12
+bosh			A	10.9.251.11
+om			A	10.9.251.10
 $ORIGIN tas-apps.nono.io.
-*			A	10.0.251.12
+*			A	10.9.251.12
 $ORIGIN nono.io.
 tetra			A	10.9.9.160
 			AAAA	2601:646:100:69f0:14ce:6eea:9204:bba2
