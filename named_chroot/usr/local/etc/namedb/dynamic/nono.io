@@ -1,7 +1,7 @@
 $ORIGIN .
 $TTL 300	; 5 minutes
 nono.io			IN SOA	ns-he.nono.io. briancunnie.gmail.com. (
-				1656815565 ; serial
+				1659732325 ; serial
 				600        ; refresh (10 minutes)
 				300        ; retry (5 minutes)
 				604800     ; expire (1 week)
@@ -20,7 +20,6 @@ $ORIGIN _domainkey.nono.io.
 protonmail		CNAME	protonmail.domainkey.dpxfut4a5wa5rl55p2q5ghiiyozieqieg5zl3wsydxdvop4hmiokq.domains.proton.ch.
 protonmail2		CNAME	protonmail2.domainkey.dpxfut4a5wa5rl55p2q5ghiiyozieqieg5zl3wsydxdvop4hmiokq.domains.proton.ch.
 protonmail3		CNAME	protonmail3.domainkey.dpxfut4a5wa5rl55p2q5ghiiyozieqieg5zl3wsydxdvop4hmiokq.domains.proton.ch.
-
 $ORIGIN nono.io.
 aa			A	141.193.213.20
 			A	141.193.213.21
@@ -77,8 +76,6 @@ impish			A	10.9.9.96
 			AAAA	2601:646:100:69f0:0:ff:fe00:60
 iphone-13		A	10.9.9.178
 iphone-7		A	10.9.9.172
-iphone-se		A	10.9.9.176
-iphone-se-2022		A	10.9.9.177
 ipv6			AAAA	2a01:4f8:c17:b8f::2
 jammy			A	10.9.9.114
 			AAAA	2601:646:100:69f0:ad62:748f:f1e6:d835
@@ -95,6 +92,8 @@ localhost		A	127.0.0.1
 mail			CNAME	ghs.google.com.
 minikube		A	10.9.9.107
 			AAAA	2601:646:100:69f0::6b
+mordred			A	10.9.9.161
+			AAAA	2601:646:100:69f0:1051:c970:9de8:8fa7
 morgoth			A	10.9.9.31
 			AAAA	2601:646:100:69f0:7d:9069:ea74:e3a
 nas			A	10.9.9.80
@@ -122,9 +121,9 @@ ns-he			A	78.46.204.247
 			AAAA	2a01:4f8:c17:b8f::2
 ns-vultr		A	207.148.72.47
 			AAAA	2001:19f0:4400:60d5::
+nsx-t			A	10.9.9.179
+			AAAA	2601:646:100:69f0::b3
 pi-enet			A	10.9.9.120
-pixel-1			A	10.9.9.61
-			AAAA	2601:646:100:69f0:7056:5452:a861:ad9a
 roomba			A	10.9.9.171
 			AAAA	2601:646:100:69f0:beff:ebff:fe3d:181b
 s3			A	73.189.219.4
@@ -162,8 +161,6 @@ vain			A	10.9.9.20
 vault			A	104.155.144.4
 vcenter			A	10.9.9.105
 			AAAA	2601:646:100:69f0::69
-vcenter-67		A	10.9.9.67
-			AAAA	2601:646:100:69f0::43
 vcenter-70		A	10.9.9.70
 			AAAA	2601:646:100:69f0::46
 w10			A	10.9.9.100
