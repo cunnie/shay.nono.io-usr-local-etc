@@ -1,7 +1,7 @@
 $ORIGIN .
 $TTL 300	; 5 minutes
 nono.io			IN SOA	ns-he.nono.io. briancunnie.gmail.com. (
-				1662142766 ; serial
+				1662236655 ; serial
 				600        ; refresh (10 minutes)
 				300        ; retry (5 minutes)
 				604800     ; expire (1 week)
@@ -102,9 +102,13 @@ $ORIGIN nas.nono.io.
 kvm			A	10.9.9.81
 $ORIGIN nono.io.
 nesxi-0			A	10.9.9.110
+			AAAA	2601:646:100:69f0:0:ff:fe00:6e
 nesxi-1			A	10.9.9.111
+			AAAA	2601:646:100:69f0:0:ff:fe00:6f
 nesxi-2			A	10.9.9.112
+			AAAA	2601:646:100:69f0:0:ff:fe00:70
 nesxi-3			A	10.9.9.113
+			AAAA	2601:646:100:69f0:0:ff:fe00:71
 nesxi-template		A	10.9.9.109
 nginx-ipv6		AAAA	2601:646:100:69f1::165
 ns			A	52.0.56.137
@@ -121,7 +125,7 @@ ns-he			A	78.46.204.247
 			AAAA	2a01:4f8:c17:b8f::2
 ns-vultr		A	207.148.72.47
 			AAAA	2001:19f0:4400:60d5::
-nsx-t			A	10.9.9.179
+nsx			A	10.9.9.179
 			AAAA	2601:646:100:69f0::b3
 pi-enet			A	10.9.9.120
 roomba			A	10.9.9.171
