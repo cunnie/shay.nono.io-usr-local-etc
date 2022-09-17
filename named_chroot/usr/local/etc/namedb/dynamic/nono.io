@@ -51,9 +51,9 @@ controller-2		A	10.240.0.12
 			AAAA	2601:646:100:69f2::c
 docs			CNAME	ghs.google.com.
 edge-0			A	10.9.9.130
-			AAAA	 2601:646:100:69f0:0:ff:fe00:82
+			AAAA	2601:646:100:69f0:0:ff:fe00:82
 edge-1			A	10.9.9.131
-			AAAA	 2601:646:100:69f0:0:ff:fe00:83
+			AAAA	2601:646:100:69f0:0:ff:fe00:83
 esxi-1			A	10.9.9.41
 			AAAA	2601:646:100:69f0::29
 $ORIGIN esxi-1.nono.io.
@@ -147,8 +147,12 @@ $ORIGIN tas.nono.io.
 *			A	10.9.251.12
 bosh			A	10.9.251.11
 om			A	10.9.251.10
+ssh			A	10.9.251.13
+tcp			A	10.9.251.14
 $ORIGIN tas-apps.nono.io.
 *			A	10.9.251.12
+ssh			A	10.9.251.13
+tcp			A	10.9.251.14
 $ORIGIN nono.io.
 tetra			A	10.9.9.160
 			AAAA	2601:646:100:69f0:14ce:6eea:9204:bba2
