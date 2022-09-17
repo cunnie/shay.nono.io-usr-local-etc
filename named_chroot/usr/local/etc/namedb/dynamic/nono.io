@@ -131,6 +131,7 @@ ns-vultr		A	207.148.72.47
 			AAAA	2001:19f0:4400:60d5::
 nsx			A	10.9.9.179
 			AAAA	2601:646:100:69f0::b3
+paul			A	108.41.147.26
 pi-enet			A	10.9.9.120
 roomba			A	10.9.9.171
 			AAAA	2601:646:100:69f0:beff:ebff:fe3d:181b
