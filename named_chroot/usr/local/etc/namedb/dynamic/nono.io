@@ -33,6 +33,7 @@ bionic			A	10.9.9.99
 blog			CNAME	cunnie.github.io.
 bosh-lite		A	192.168.50.6
 bosh-vsphere		A	73.189.219.4
+bosh-vsphere-guest	A	10.9.2.250
 brendan			A	208.120.16.73
 buzzer			CNAME	nono.io.
 calendar		CNAME	ghs.google.com.
