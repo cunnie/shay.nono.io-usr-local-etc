@@ -1,7 +1,7 @@
 $ORIGIN .
 $TTL 300	; 5 minutes
 nono.io			IN SOA	ns-he.nono.io. briancunnie.gmail.com. (
-				1663463987 ; serial
+				1663787131 ; serial
 				600        ; refresh (10 minutes)
 				300        ; retry (5 minutes)
 				604800     ; expire (1 week)
@@ -106,6 +106,8 @@ nas			A	10.9.9.80
 $ORIGIN nas.nono.io.
 kvm			A	10.9.9.81
 $ORIGIN nono.io.
+nas-guest		A	10.9.2.10
+			AAAA	2601:646:100:69f3:ae1f:6bff:fe2d:1593
 nesxi-0			A	10.9.9.110
 			AAAA	2601:646:100:69f0:0:ff:fe00:6e
 nesxi-1			A	10.9.9.111
