@@ -1,7 +1,7 @@
 $ORIGIN .
 $TTL 300	; 5 minutes
 nono.io			IN SOA	ns-he.nono.io. briancunnie.gmail.com. (
-				1664054628 ; serial
+				1664284248 ; serial
 				600        ; refresh (10 minutes)
 				300        ; retry (5 minutes)
 				604800     ; expire (1 week)
@@ -160,6 +160,7 @@ tcp			A	10.9.251.14
 $ORIGIN nono.io.
 tetra			A	10.9.9.160
 			AAAA	2601:646:100:69f0:14ce:6eea:9204:bba2
+tier-0			A	10.9.50.10
 time-home		A	73.189.219.4
 			AAAA	2001:558:6045:109:892f:2df3:15e3:3184
 ubi-ap-0		A	10.9.9.3
