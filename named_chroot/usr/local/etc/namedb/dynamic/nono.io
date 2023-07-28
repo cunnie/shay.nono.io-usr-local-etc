@@ -1,7 +1,7 @@
 $ORIGIN .
 $TTL 300	; 5 minutes
 nono.io			IN SOA	ns-he.nono.io. briancunnie.gmail.com. (
-				1689351940 ; serial
+				1690584108 ; serial
 				600        ; refresh (10 minutes)
 				300        ; retry (5 minutes)
 				604800     ; expire (1 week)
@@ -23,8 +23,6 @@ protonmail3		CNAME	protonmail3.domainkey.dpxfut4a5wa5rl55p2q5ghiiyozieqieg5zl3ws
 $ORIGIN nono.io.
 aa			A	141.193.213.20
 			A	141.193.213.21
-atom			A	10.9.9.10
-			AAAA	2601:646:100:69f0::a
 $ORIGIN atom.nono.io.
 kvm			A	10.9.9.11
 $ORIGIN nono.io.
@@ -154,9 +152,6 @@ shay			A	78.46.204.247
 			AAAA	2a01:4f8:c17:b8f::2
 sites			CNAME	ghs.google.com.
 start			CNAME	ghs.google.com.
-tara			A	10.9.9.30
-			AAAA	2601:646:100:69f0:1863:5523:cc13:e013
-tara-ipv6		AAAA	2601:646:100:69f0:1863:5523:cc13:e013
 $ORIGIN tas.nono.io.
 *			A	10.9.251.12
 bosh			A	10.9.251.11
@@ -168,8 +163,6 @@ $ORIGIN tas-apps.nono.io.
 ssh			A	10.9.251.13
 tcp			A	10.9.251.14
 $ORIGIN nono.io.
-tetra			A	10.9.9.160
-			AAAA	2601:646:100:69f0:14ce:6eea:9204:bba2
 tier-0			A	10.9.50.10
 time-home		A	73.189.219.4
 			AAAA	2001:558:6045:109:892f:2df3:15e3:3184
@@ -183,15 +176,7 @@ ubuntu			A	10.9.9.103
 			AAAA	2601:646:100:69f0::67
 unifi			A	10.9.9.6
 usb-c			A	10.9.9.151
-vain			A	10.9.9.20
-			AAAA	2601:646:100:69f0:20d:b9ff:fe48:9249
-validator		A	10.9.9.117
-			AAAA	2601:646:100:69f0:ac1f:6bff:fe2b:7cf2
 vault			A	104.155.144.4
-vcenter			A	10.9.9.105
-			AAAA	2601:646:100:69f0::69
-vcenter-70		A	10.9.9.70
-			AAAA	2601:646:100:69f0::46
 vcenter-80		A	10.9.9.128
 			AAAA	2601:646:100:69f0::80
 w11			A	10.9.9.119
@@ -211,5 +196,4 @@ worker-2		A	10.240.0.22
 			AAAA	2601:646:100:69f2::16
 www			A	78.46.204.247
 			AAAA	2a01:4f8:c17:b8f::2
-xenial			A	10.9.9.97
-			AAAA	2601:646:100:69f0:0:ff:fe00:61
+challenge.x		A	127.0.0.1
