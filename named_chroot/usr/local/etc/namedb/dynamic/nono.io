@@ -39,7 +39,7 @@ $ORIGIN cf.nono.io.
 haproxy			A	10.9.250.10
 router			A	10.9.250.11
 $ORIGIN nono.io.
-ci			A	35.209.139.217
+ci			A	35.209.72.245
 controller-0		A	10.240.0.10
 			AAAA	2601:646:100:69f2::a
 controller-1		A	10.240.0.11
@@ -77,7 +77,7 @@ fed			A	10.9.9.118
 			AAAA	2601:646:100:69f0:0:ff:fe00:76
 focal			A	10.9.9.108
 			AAAA	2601:646:100:69f0:0:ff:fe00:6c
-gke			A	35.209.139.217
+gke			A	35.209.72.245
 google3337941d6a665d43	CNAME	google.com.
 home			A	73.189.219.4
 			AAAA	2001:558:6045:109:892f:2df3:15e3:3184
@@ -110,7 +110,6 @@ mordred			A	10.9.9.161
 morgoth			A	10.9.9.31
 			AAAA	2601:646:100:69f0:7d:9069:ea74:e3a
 morgoth-ipv6		AAAA	2601:646:100:69f0:7d:9069:ea74:e3a
-n8n			A	35.209.139.217
 nas			A	10.9.9.80
 			AAAA	2601:646:100:69f0::50
 $ORIGIN nas.nono.io.
@@ -177,7 +176,7 @@ ubuntu			A	10.9.9.103
 			AAAA	2601:646:100:69f0::67
 unifi			A	10.9.9.6
 usb-c			A	10.9.9.151
-vault			A	35.209.139.217
+vault			A	35.209.72.245
 vcenter-80		A	10.9.9.128
 			AAAA	2601:646:100:69f0::80
 w11			A	10.9.9.119
