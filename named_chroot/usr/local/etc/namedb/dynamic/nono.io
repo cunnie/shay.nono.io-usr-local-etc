@@ -106,7 +106,7 @@ minikube		A	10.9.9.107
 mordor			A	10.9.9.12
 			AAAA	2601:646:100:69f0::c
 mordred			A	10.9.9.161
-			AAAA	2601:646:100:69f0:1051:c970:9de8:8fa7
+			AAAA	2601:646:100:69f0:462:a1fa:e1bd:c7c6
 morgoth			A	10.9.9.31
 			AAAA	2601:646:100:69f0:7d:9069:ea74:e3a
 morgoth-ipv6		AAAA	2601:646:100:69f0:7d:9069:ea74:e3a
