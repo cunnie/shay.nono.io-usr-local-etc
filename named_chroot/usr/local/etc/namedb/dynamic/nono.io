@@ -140,6 +140,8 @@ ns-digitalocean		A	165.22.96.232
 ns-gce			A	104.155.144.4
 ns-he			A	78.46.204.247
 			AAAA	2a01:4f8:c17:b8f::2
+ns-vultr  A 158.247.194.13
+      AAAA  2401:c080:1c00:29d6::
 nsx			A	10.9.9.179
 			AAAA	2601:646:100:69f0::b3
 paul			A	108.41.147.26
