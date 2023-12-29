@@ -1,7 +1,7 @@
 $ORIGIN .
 $TTL 300	; 5 minutes
 nono.io			IN SOA	ns-he.nono.io. briancunnie.gmail.com. (
-				1701436336 ; serial
+				1701436354 ; serial
 				600        ; refresh (10 minutes)
 				300        ; retry (5 minutes)
 				604800     ; expire (1 week)
@@ -110,6 +110,7 @@ mordred			A	10.9.9.161
 morgoth			A	10.9.9.31
 			AAAA	2601:646:100:69f0:7d:9069:ea74:e3a
 morgoth-ipv6		AAAA	2601:646:100:69f0:7d:9069:ea74:e3a
+n8n			A	35.209.72.245
 nas			A	10.9.9.80
 			AAAA	2601:646:100:69f0::50
 $ORIGIN nas.nono.io.
@@ -140,8 +141,8 @@ ns-digitalocean		A	165.22.96.232
 ns-gce			A	104.155.144.4
 ns-he			A	78.46.204.247
 			AAAA	2a01:4f8:c17:b8f::2
-ns-vultr  A 158.247.194.13
-      AAAA  2401:c080:1c00:29d6::
+ns-vultr		A	158.247.194.13
+			AAAA	2401:c080:1c00:29d6::
 nsx			A	10.9.9.179
 			AAAA	2601:646:100:69f0::b3
 paul			A	108.41.147.26
