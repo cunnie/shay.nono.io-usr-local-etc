@@ -1,14 +1,14 @@
 $ORIGIN .
 $TTL 300	; 5 minutes
 nono.io			IN SOA	ns-he.nono.io. briancunnie.gmail.com. (
-				1703858111 ; serial
+				1705547394 ; serial
 				600        ; refresh (10 minutes)
 				300        ; retry (5 minutes)
 				604800     ; expire (1 week)
 				600        ; minimum (10 minutes)
 				)
 			NS	ns-he.nono.io.
-			NS	ns-digitalocean.nono.io.
+			NS	ns-vultr.nono.io.
 			A	78.46.204.247
 			MX	10 mail.protonmail.ch.
 			TXT	"v=spf1 include:_spf.protonmail.ch mx ~all"
