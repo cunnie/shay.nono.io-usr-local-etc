@@ -1,7 +1,7 @@
 $ORIGIN .
 $TTL 300	; 5 minutes
 nono.io			IN SOA	ns-he.nono.io. briancunnie.gmail.com. (
-				1701436354 ; serial
+				1703858111 ; serial
 				600        ; refresh (10 minutes)
 				300        ; retry (5 minutes)
 				604800     ; expire (1 week)
@@ -156,15 +156,15 @@ shay			A	78.46.204.247
 sites			CNAME	ghs.google.com.
 start			CNAME	ghs.google.com.
 $ORIGIN tas.nono.io.
-*			A	10.8.0.10
+*			A	10.9.251.12
 bosh			A	10.9.251.11
 om			A	10.9.251.10
-ssh			A	10.8.0.11
-tcp			A	10.8.0.12
+ssh			A	10.9.251.13
+tcp			A	10.9.251.14
 $ORIGIN tas-apps.nono.io.
-*			A	10.8.0.10
-ssh			A	10.8.0.11
-tcp			A	10.8.0.12
+*			A	10.9.251.12
+ssh			A	10.9.251.13
+tcp			A	10.9.251.14
 $ORIGIN nono.io.
 tier-0			A	10.9.50.10
 time-home		A	73.189.219.4
