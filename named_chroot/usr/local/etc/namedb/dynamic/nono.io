@@ -1,7 +1,7 @@
 $ORIGIN .
 $TTL 300	; 5 minutes
 nono.io			IN SOA	ns-he.nono.io. briancunnie.gmail.com. (
-				1707521809 ; serial
+				1708715869 ; serial
 				600        ; refresh (10 minutes)
 				300        ; retry (5 minutes)
 				604800     ; expire (1 week)
@@ -87,7 +87,7 @@ iphone-13		A	10.9.9.178
 iphone-15		A	10.9.9.172
 ipv6			AAAA	2a01:4f8:c17:b8f::2
 jammy			A	10.9.9.114
-			AAAA	2601:646:100:69f0:ad62:748f:f1e6:d835
+			AAAA	2601:646:100:69f0:0:ff:fe00:72
 k8s			A	73.189.219.4
 			AAAA	2601:646:100:69f2::a
 			AAAA	2601:646:100:69f2::b
