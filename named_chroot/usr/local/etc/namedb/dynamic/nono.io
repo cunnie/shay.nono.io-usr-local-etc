@@ -1,7 +1,7 @@
 $ORIGIN .
 $TTL 300	; 5 minutes
 nono.io			IN SOA	ns-he.nono.io. briancunnie.gmail.com. (
-				1710002113 ; serial
+				1710002340 ; serial
 				600        ; refresh (10 minutes)
 				300        ; retry (5 minutes)
 				604800     ; expire (1 week)
@@ -21,8 +21,6 @@ protonmail		CNAME	protonmail.domainkey.dpxfut4a5wa5rl55p2q5ghiiyozieqieg5zl3wsyd
 protonmail2		CNAME	protonmail2.domainkey.dpxfut4a5wa5rl55p2q5ghiiyozieqieg5zl3wsydxdvop4hmiokq.domains.proton.ch.
 protonmail3		CNAME	protonmail3.domainkey.dpxfut4a5wa5rl55p2q5ghiiyozieqieg5zl3wsydxdvop4hmiokq.domains.proton.ch.
 $ORIGIN nono.io.
-aa			A	141.193.213.20
-			A	141.193.213.21
 bionic			A	10.9.9.99
 			AAAA	2601:646:100:69f0::63
 blog			CNAME	cunnie.github.io.
@@ -31,8 +29,6 @@ bosh-test		A	10.9.2.21
 bosh-vsphere		A	73.189.219.4
 bosh-vsphere-guest	A	10.9.2.250
 brendan			A	208.120.16.73
-buzzer			CNAME	nono.io.
-calendar		CNAME	ghs.google.com.
 cf			A	73.189.219.4
 $ORIGIN cf.nono.io.
 *			A	73.189.219.4
@@ -46,7 +42,6 @@ controller-1		A	10.240.0.11
 			AAAA	2601:646:100:69f2::b
 controller-2		A	10.240.0.12
 			AAAA	2601:646:100:69f2::c
-docs			CNAME	ghs.google.com.
 edge-0			A	10.9.9.130
 			AAAA	2601:646:100:69f0:0:ff:fe00:82
 edge-1			A	10.9.9.131
@@ -78,7 +73,6 @@ fed			A	10.9.9.118
 focal			A	10.9.9.108
 			AAAA	2601:646:100:69f0:0:ff:fe00:6c
 gke			A	35.209.72.245
-google3337941d6a665d43	CNAME	google.com.
 home			A	73.189.219.4
 			AAAA	2001:558:6045:109:892f:2df3:15e3:3184
 hp1536			A	10.9.9.50
@@ -100,7 +94,6 @@ localhost		A	127.0.0.1
 			AAAA	::1
 lunar			A	10.9.9.96
 			AAAA	2601:646:100:69f0:0:ff:fe00:60
-mail			CNAME	ghs.google.com.
 minikube		A	10.9.9.107
 			AAAA	2601:646:100:69f0::6b
 mordor			A	10.9.9.12
@@ -110,7 +103,6 @@ mordred			A	10.9.9.161
 morgoth			A	10.9.9.31
 			AAAA	2601:646:100:69f0:7d:9069:ea74:e3a
 morgoth-ipv6		AAAA	2601:646:100:69f0:7d:9069:ea74:e3a
-n8n			A	35.209.72.245
 nas			A	10.9.9.80
 			AAAA	2601:646:100:69f0::50
 $ORIGIN nas.nono.io.
@@ -150,8 +142,6 @@ s3			A	73.189.219.4
 			AAAA	2601:646:100:69f0::50
 shay			A	78.46.204.247
 			AAAA	2a01:4f8:c17:b8f::2
-sites			CNAME	ghs.google.com.
-start			CNAME	ghs.google.com.
 $ORIGIN tas.nono.io.
 *			A	10.9.251.12
 bosh			A	10.9.251.11
@@ -196,4 +186,3 @@ worker-2		A	10.240.0.22
 			AAAA	2601:646:100:69f2::16
 www			A	78.46.204.247
 			AAAA	2a01:4f8:c17:b8f::2
-challenge.x		A	127.0.0.1
