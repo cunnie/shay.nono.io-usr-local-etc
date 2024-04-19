@@ -1,7 +1,7 @@
 $ORIGIN .
 $TTL 300	; 5 minutes
 nono.io			IN SOA	ns-he.nono.io. briancunnie.gmail.com. (
-				1712778922 ; serial
+				1713490280 ; serial
 				600        ; refresh (10 minutes)
 				300        ; retry (5 minutes)
 				604800     ; expire (1 week)
@@ -21,8 +21,6 @@ protonmail		CNAME	protonmail.domainkey.dpxfut4a5wa5rl55p2q5ghiiyozieqieg5zl3wsyd
 protonmail2		CNAME	protonmail2.domainkey.dpxfut4a5wa5rl55p2q5ghiiyozieqieg5zl3wsydxdvop4hmiokq.domains.proton.ch.
 protonmail3		CNAME	protonmail3.domainkey.dpxfut4a5wa5rl55p2q5ghiiyozieqieg5zl3wsydxdvop4hmiokq.domains.proton.ch.
 $ORIGIN nono.io.
-bionic			A	10.9.9.99
-			AAAA	2601:646:100:69f0::63
 blog			CNAME	cunnie.github.io.
 bosh-lite		A	192.168.50.6
 bosh-vsphere		A	73.189.219.4
@@ -34,12 +32,6 @@ haproxy			A	10.9.250.10
 router			A	10.9.250.11
 $ORIGIN nono.io.
 ci			A	35.209.72.245
-controller-0		A	10.240.0.10
-			AAAA	2601:646:100:69f2::a
-controller-1		A	10.240.0.11
-			AAAA	2601:646:100:69f2::b
-controller-2		A	10.240.0.12
-			AAAA	2601:646:100:69f2::c
 edge-0			A	10.9.9.130
 			AAAA	2601:646:100:69f0:0:ff:fe00:82
 edge-1			A	10.9.9.131
@@ -68,8 +60,6 @@ fbsd			A	10.9.9.104
 			AAAA	2601:646:100:69f0::68
 fed			A	10.9.9.118
 			AAAA	2601:646:100:69f0:0:ff:fe00:76
-focal			A	10.9.9.108
-			AAAA	2601:646:100:69f0:0:ff:fe00:6c
 gke			A	35.209.72.245
 home			A	73.189.219.4
 			AAAA	2001:558:6045:109:892f:2df3:15e3:3184
@@ -80,12 +70,6 @@ iphone-15		A	10.9.9.172
 ipv6			AAAA	2a01:4f8:c17:b8f::2
 jammy			A	10.9.9.114
 			AAAA	2601:646:100:69f0:0:ff:fe00:72
-k8s			A	73.189.219.4
-			AAAA	2601:646:100:69f2::a
-			AAAA	2601:646:100:69f2::b
-			AAAA	2601:646:100:69f2::c
-k8s-template		A	10.240.0.9
-			AAAA	2601:646:100:69f2::9
 liz			A	10.9.9.90
 			AAAA	2601:646:100:69f0:d563:ed28:22c1:ff1d
 localhost		A	127.0.0.1
@@ -133,7 +117,6 @@ ns-vultr		A	158.247.194.13
 nsx			A	10.9.9.179
 			AAAA	2601:646:100:69f0::b3
 paul			A	108.41.147.26
-pi-enet			A	10.9.9.120
 roomba			A	10.9.9.171
 			AAAA	2601:646:100:69f0:beff:ebff:fe3d:181b
 s3			A	10.9.9.80
@@ -154,14 +137,8 @@ $ORIGIN nono.io.
 tier-0			A	10.9.50.10
 time-home		A	73.189.219.4
 			AAAA	2001:558:6045:109:892f:2df3:15e3:3184
-ubi-ap-0		A	10.9.9.3
-ubi-ap-1		A	10.9.9.4
-ubi-ap-nano		A	10.9.9.7
+ubi-ap		A	10.9.9.4
 ubi-sw-24		A	10.9.9.5
-ubi-sw-8		A	10.9.9.2
-ubi-usw-flex-xg		A	10.9.9.8
-ubuntu			A	10.9.9.103
-			AAAA	2601:646:100:69f0::67
 unifi			A	10.9.9.6
 usb-c			A	10.9.9.151
 vault			A	35.209.72.245
@@ -176,11 +153,5 @@ w22			A	10.9.9.115
 withings-bpm		A	10.9.9.173
 withings-scale		A	10.9.9.174
 withings-thermo		A	10.9.9.175
-worker-0		A	10.240.0.20
-			AAAA	2601:646:100:69f2::14
-worker-1		A	10.240.0.21
-			AAAA	2601:646:100:69f2::15
-worker-2		A	10.240.0.22
-			AAAA	2601:646:100:69f2::16
 www			A	78.46.204.247
 			AAAA	2a01:4f8:c17:b8f::2
