@@ -1,7 +1,7 @@
 $ORIGIN .
 $TTL 300	; 5 minutes
 diarizer.com		IN SOA	ns-he.nono.io. briancunnie.gmail.com. (
-				1716831229 ; serial
+				1716831231 ; serial
 				600        ; refresh (10 minutes)
 				300        ; retry (5 minutes)
 				604800     ; expire (1 week)
