@@ -1,7 +1,7 @@
 $ORIGIN .
 $TTL 300	; 5 minutes
 nono.io			IN SOA	ns-he.nono.io. briancunnie.gmail.com. (
-				1716639140 ; serial
+				1718405200 ; serial
 				600        ; refresh (10 minutes)
 				300        ; retry (5 minutes)
 				604800     ; expire (1 week)
@@ -83,7 +83,7 @@ minikube		A	10.9.9.107
 mordor			A	10.9.9.12
 			AAAA	2601:646:100:69f0::c
 mordred			A	10.9.9.161
-			AAAA	2601:646:100:69f0:462:a1fa:e1bd:c7c6
+			AAAA	2601:646:100:69f0:14c7:8c12:6f86:b75
 morgoth			A	10.9.9.31
 			AAAA	2601:646:100:69f0:7d:9069:ea74:e3a
 morgoth-ipv6		AAAA	2601:646:100:69f0:7d:9069:ea74:e3a
