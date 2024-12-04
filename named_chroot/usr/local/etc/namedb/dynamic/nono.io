@@ -1,7 +1,7 @@
 $ORIGIN .
 $TTL 300	; 5 minutes
 nono.io			IN SOA	ns-he.nono.io. briancunnie.gmail.com. (
-				1729266005 ; serial
+				1733345239 ; serial
 				600        ; refresh (10 minutes)
 				300        ; retry (5 minutes)
 				604800     ; expire (1 week)
@@ -102,5 +102,7 @@ vcenter-80		A	10.9.9.128
 withings-bpm		A	10.9.9.173
 withings-scale		A	10.9.9.174
 withings-thermo		A	10.9.9.175
+worker			A	10.9.2.240
+			AAAA	2601:646:100:69f2::f8
 www			A	78.46.204.247
 			AAAA	2a01:4f8:c17:b8f::2
