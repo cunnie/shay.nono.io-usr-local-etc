@@ -1,7 +1,7 @@
 $ORIGIN .
 $TTL 300	; 5 minutes
 nono.io			IN SOA	ns-he.nono.io. briancunnie.gmail.com. (
-				1737221673 ; serial
+				1737223118 ; serial
 				600        ; refresh (10 minutes)
 				300        ; retry (5 minutes)
 				604800     ; expire (1 week)
@@ -87,8 +87,6 @@ riscv			A	10.9.9.102
 			AAAA	2601:646:100:69f0:72b3:d5ff:fe92:fb7a
 roomba			A	10.9.9.171
 			AAAA	2601:646:100:69f0:beff:ebff:fe3d:181b
-runner			A	10.9.2.10
-			AAAA	2601:646:100:69f1::a
 s3			A	10.9.9.80
 			AAAA	2601:646:100:69f0::50
 shay			A	78.46.204.247
