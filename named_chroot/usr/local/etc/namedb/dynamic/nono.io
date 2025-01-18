@@ -1,7 +1,7 @@
 $ORIGIN .
 $TTL 300	; 5 minutes
 nono.io			IN SOA	ns-he.nono.io. briancunnie.gmail.com. (
-				1737223118 ; serial
+				1737233079 ; serial
 				600        ; refresh (10 minutes)
 				300        ; retry (5 minutes)
 				604800     ; expire (1 week)
@@ -87,6 +87,8 @@ riscv			A	10.9.9.102
 			AAAA	2601:646:100:69f0:72b3:d5ff:fe92:fb7a
 roomba			A	10.9.9.171
 			AAAA	2601:646:100:69f0:beff:ebff:fe3d:181b
+runner			A	10.9.2.240
+			AAAA	2601:646:100:69f1:0:ff:fe00:2f8
 s3			A	10.9.9.80
 			AAAA	2601:646:100:69f0::50
 shay			A	78.46.204.247
@@ -103,7 +105,5 @@ vcenter-80		A	10.9.9.128
 withings-bpm		A	10.9.9.173
 withings-scale		A	10.9.9.174
 withings-thermo		A	10.9.9.175
-worker			A	10.9.2.240
-			AAAA	2601:646:100:69f1:0:ff:fe00:2f8
 www			A	78.46.204.247
 			AAAA	2a01:4f8:c17:b8f::2
