@@ -73,8 +73,6 @@ kvm			A	10.9.9.81
 $ORIGIN nono.io.
 noble			A	10.9.9.95
 			AAAA	2601:646:100:69f0:0:ff:fe00:5f
-nuada			A	10.9.9.60
-			AAAA	2601:646:100:69f0:42c:6ab3:cdd9:e562
 ns-aws			A	52.0.56.137
 			AAAA	2600:1f18:aaf:6900::a
 ns-gce			A	104.155.144.4
@@ -85,6 +83,8 @@ ns-ovh			A	51.75.53.19
 			AAAA	2001:41d0:602:2313::1
 ns-vultr		A	158.247.194.13
 			AAAA	2401:c080:1c00:29d6::
+nuada			A	10.9.9.60
+			AAAA	2601:646:100:69f0:42c:6ab3:cdd9:e562
 riscv			A	10.9.9.102
 			AAAA	2601:646:100:69f0:72b3:d5ff:fe92:fb7a
 roomba			A	10.9.9.171
