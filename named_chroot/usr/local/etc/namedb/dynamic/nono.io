@@ -1,7 +1,7 @@
 $ORIGIN .
 $TTL 300	; 5 minutes
 nono.io			IN SOA	ns-he.nono.io. briancunnie.gmail.com. (
-				1751895015 ; serial
+				1755787478 ; serial
 				600        ; refresh (10 minutes)
 				300        ; retry (5 minutes)
 				604800     ; expire (1 week)
@@ -11,7 +11,7 @@ nono.io			IN SOA	ns-he.nono.io. briancunnie.gmail.com. (
 			NS	ns-vultr.nono.io.
 			A	78.46.204.247
 			MX	10 mail.protonmail.ch.
-			TXT	"v=spf1 include:_spf.protonmail.ch mx ~all"
+			TXT	"v=spf1 include:_spf.protonmail.ch mx -all"
 			TXT	"protonmail-verification=b436783699a0193f50f95f63e069bb04b0ccec5f"
 			AAAA	2a01:4f8:c17:b8f::2
 $ORIGIN nono.io.
@@ -74,7 +74,11 @@ shay			A	78.46.204.247
 time-home		A	73.189.219.4
 			AAAA	2001:558:6045:109:892f:2df3:15e3:3184
 ubi-ap			A	10.9.9.4
+			AAAA	2601:646:100:69f0:7a8a:20ff:fedc:78c2
 ubi-sw-24		A	10.9.9.5
+			AAAA	2601:646:100:69f0:1ae8:29ff:fead:d7ba
+ubi-sw-8		A	10.9.9.3
+			AAAA	2601:646:100:69f0:6c63:f8ff:fe2e:ec9f
 unifi			A	10.9.9.6
 usb-c			A	10.9.9.151
 withings-bpm		A	10.9.9.173
