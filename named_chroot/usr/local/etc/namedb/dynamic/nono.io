@@ -1,7 +1,7 @@
 $ORIGIN .
 $TTL 300	; 5 minutes
 nono.io			IN SOA	ns-he.nono.io. briancunnie.gmail.com. (
-				1767793494 ; serial
+				1778237794 ; serial
 				600        ; refresh (10 minutes)
 				300        ; retry (5 minutes)
 				604800     ; expire (1 week)
@@ -22,6 +22,8 @@ protonmail2		CNAME	protonmail2.domainkey.dpxfut4a5wa5rl55p2q5ghiiyozieqieg5zl3ws
 protonmail3		CNAME	protonmail3.domainkey.dpxfut4a5wa5rl55p2q5ghiiyozieqieg5zl3wsydxdvop4hmiokq.domains.proton.ch.
 $ORIGIN nono.io.
 avalon			A	10.9.9.10
+bondi			A	10.9.9.70
+			AAAA	2601:646:100:69f0:48a:8327:39b8:43cb
 ci			AAAA	2601:646:100:69f1::e0
 blog			CNAME	cunnie.github.io.
 fed			A	10.9.9.118
