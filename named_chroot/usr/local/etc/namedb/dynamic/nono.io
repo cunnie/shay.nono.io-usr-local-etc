@@ -1,7 +1,7 @@
 $ORIGIN .
 $TTL 300	; 5 minutes
 nono.io			IN SOA	ns-he.nono.io. briancunnie.gmail.com. (
-				1781231946 ; serial
+				1781318817 ; serial
 				600        ; refresh (10 minutes)
 				300        ; retry (5 minutes)
 				604800     ; expire (1 week)
@@ -25,7 +25,7 @@ avalon			A	10.9.9.10
 blog			CNAME	cunnie.github.io.
 bondi			A	10.9.9.70
 			AAAA	2601:645:8103:e3a0:48a:8327:39b8:43cb
-ci			AAAA	2601:645:8185:5831::e0
+ci			AAAA	2601:645:8103:e3a1::e0
 fed			A	10.9.9.118
 			AAAA	2601:645:8103:e3a0:0:ff:fe00:76
 home			A	73.231.94.127
@@ -67,7 +67,7 @@ $ORIGIN nono.io.
 roomba			A	10.9.9.171
 			AAAA	2601:645:8103:e3a0:beff:ebff:fe3d:181b
 runner			A	10.9.2.240
-			AAAA	2601:645:8185:5831:0:ff:fe00:2f8
+			AAAA	2601:645:8103:e3a1:0:ff:fe00:2f8
 shay			A	78.46.204.247
 			AAAA	2a01:4f8:c17:b8f::2
 ubi-ap			A	10.9.9.4
@@ -76,7 +76,7 @@ ubi-sw-8		A	10.9.9.3
 			AAAA	2601:645:8103:e3a0:6c63:f8ff:fe2e:ec9f
 unifi			A	10.9.9.6
 usb-c			A	10.9.9.151
-vault			AAAA	2601:645:8185:5831::e1
+vault			AAAA	2601:645:8103:e3a1::e1
 withings-bpm		A	10.9.9.173
 withings-scale		A	10.9.9.174
 withings-thermo		A	10.9.9.175
