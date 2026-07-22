@@ -1,7 +1,7 @@
 $ORIGIN .
 $TTL 300	; 5 minutes
 nono.io			IN SOA	ns-he.nono.io. briancunnie.gmail.com. (
-				1782694250 ; serial
+				1784729442 ; serial
 				600        ; refresh (10 minutes)
 				300        ; retry (5 minutes)
 				604800     ; expire (1 week)
@@ -76,8 +76,6 @@ ubi-sw-8		A	10.9.9.3
 			AAAA	2601:645:8103:e3a0:6c63:f8ff:fe2e:ec9f
 ui			A	10.9.9.7
 			AAAA	2601:645:8103:e3a0::7
-unifi			A	10.9.9.6
-			AAAA	2601:645:8103:e3a0:0:ff:fe00:6
 usb-c			A	10.9.9.151
 vault			AAAA	2601:645:8103:e3a1::e1
 withings-bpm		A	10.9.9.173
