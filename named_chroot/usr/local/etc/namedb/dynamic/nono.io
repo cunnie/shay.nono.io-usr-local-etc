@@ -1,7 +1,7 @@
 $ORIGIN .
 $TTL 300	; 5 minutes
 nono.io			IN SOA	ns-he.nono.io. briancunnie.gmail.com. (
-				1785716618 ; serial
+				1785717217 ; serial
 				600        ; refresh (10 minutes)
 				300        ; retry (5 minutes)
 				604800     ; expire (1 week)
@@ -26,6 +26,8 @@ blog			CNAME	cunnie.github.io.
 bondi			A	10.9.9.70
 			AAAA	2601:645:8103:e3a0:48a:8327:39b8:43cb
 ci			AAAA	2601:645:8103:e3a1::e0
+dnstap			AAAA	2601:645:8103:e3a0::78
+dnstap-ipv4		A	10.9.9.120
 fed			A	10.9.9.118
 			AAAA	2601:645:8103:e3a0::76
 home			A	73.231.94.127
