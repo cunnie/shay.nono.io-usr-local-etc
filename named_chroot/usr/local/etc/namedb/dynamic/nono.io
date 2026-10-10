@@ -1,7 +1,7 @@
 $ORIGIN .
 $TTL 300	; 5 minutes
 nono.io			IN SOA	ns-he.nono.io. briancunnie.gmail.com. (
-				1791635709 ; serial
+				1791669270 ; serial
 				600        ; refresh (10 minutes)
 				300        ; retry (5 minutes)
 				604800     ; expire (1 week)
@@ -24,31 +24,31 @@ $ORIGIN nono.io.
 avalon			A	10.9.9.10
 blog			CNAME	cunnie.github.io.
 bondi			A	10.9.9.70
-			AAAA	2601:645:8103:e3a0:48a:8327:39b8:43cb
-ci			AAAA	2601:645:8103:e3a2::e0
-dnstap			AAAA	2601:645:8103:e3a0::78
+			AAAA	2601:645:8105:e060:48a:8327:39b8:43cb
+ci			AAAA	2601:645:8105:e062::e0
+dnstap			AAAA	2601:645:8105:e060::78
 dnstap-ipv4		A	10.9.9.120
 fed			A	10.9.9.118
-			AAAA	2601:645:8103:e3a0::76
+			AAAA	2601:645:8105:e060::76
 home			A	73.231.94.127
 			AAAA	2001:558:6045:1a:e816:8043:5c0b:6d5a
 hp1536			A	10.9.9.50
-			AAAA	2601:645:8103:e3a0:121f:74ff:fe47:daee
+			AAAA	2601:645:8105:e060:121f:74ff:fe47:daee
 iphone-15		A	10.9.9.15
 iphone-17		A	10.9.9.17
 ipv4			A	78.46.204.247
 ipv6			AAAA	2a01:4f8:c17:b8f::2
 liz			A	10.9.9.90
-			AAAA	2601:645:8103:e3a0:d563:ed28:22c1:ff1d
-llm			AAAA	2601:645:8103:e3a0:875:ba69:9c7b:447a
+			AAAA	2601:645:8105:e060:d563:ed28:22c1:ff1d
+llm			AAAA	2601:645:8105:e060:875:ba69:9c7b:447a
 localhost		A	127.0.0.1
 			AAAA	::1
 melkor			A	10.9.9.30
-			AAAA	2601:645:8103:e3a0:875:ba69:9c7b:447a
+			AAAA	2601:645:8105:e060:875:ba69:9c7b:447a
 nas			A       10.9.9.80
-			AAAA    2601:645:8103:e3a0:0:ff:fe00:50
+			AAAA    2601:645:8105:e060:0:ff:fe00:50
 noble			A	10.9.9.95
-			AAAA	2601:645:8103:e3a0:0:ff:fe00:5f
+			AAAA	2601:645:8105:e060:0:ff:fe00:5f
 ns-aws			A	52.0.56.137
 			AAAA	2600:1f18:aaf:6900::a
 ns-gce			A	104.155.144.4
@@ -60,27 +60,27 @@ ns-ovh			A	51.75.53.19
 ns-vultr		A	158.247.194.13
 			AAAA	2401:c080:1c00:29d6::
 nuada			A	10.9.9.60
-			AAAA	2601:645:8103:e3a0:c0e:523f:3b69:19b5
+			AAAA	2601:645:8105:e060:c0e:523f:3b69:19b5
 pve			A	10.9.9.42
-			AAAA	2601:645:8103:e3a0::2a
+			AAAA	2601:645:8105:e060::2a
 $ORIGIN pve.nono.io.
 kvm			A	10.9.9.47
-			AAAA	2601:645:8103:e3a0:3eec:efff:fedc:ed69
+			AAAA	2601:645:8105:e060:3eec:efff:fedc:ed69
 $ORIGIN nono.io.
 roomba			A	10.9.9.171
-			AAAA	2601:645:8103:e3a0:beff:ebff:fe3d:181b
+			AAAA	2601:645:8105:e060:beff:ebff:fe3d:181b
 runner			A	10.9.2.240
-			AAAA	2601:645:8103:e3a2::f0
+			AAAA	2601:645:8105:e062::f0
 shay			A	78.46.204.247
 			AAAA	2a01:4f8:c17:b8f::2
 ubi-ap			A	10.9.9.4
-			AAAA	2601:645:8103:e3a0:1e6a:1bff:fe25:9ae9
+			AAAA	2601:645:8105:e060:1e6a:1bff:fe25:9ae9
 ubi-sw-8		A	10.9.9.3
-			AAAA	2601:645:8103:e3a0:6c63:f8ff:fe2e:ec9f
+			AAAA	2601:645:8105:e060:6c63:f8ff:fe2e:ec9f
 ui			A	10.9.9.7
-			AAAA	2601:645:8103:e3a0::7
+			AAAA	2601:645:8105:e060::7
 usb-c			A	10.9.9.151
-vault			AAAA	2601:645:8103:e3a2::e1
+vault			AAAA	2601:645:8105:e062::e1
 withings-bpm		A	10.9.9.173
 withings-scale		A	10.9.9.174
 withings-thermo		A	10.9.9.175
