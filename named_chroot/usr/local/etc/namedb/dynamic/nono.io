@@ -1,7 +1,7 @@
 $ORIGIN .
 $TTL 300	; 5 minutes
 nono.io			IN SOA	ns-he.nono.io. briancunnie.gmail.com. (
-				1791669270 ; serial
+				1792065455 ; serial
 				600        ; refresh (10 minutes)
 				300        ; retry (5 minutes)
 				604800     ; expire (1 week)
@@ -44,7 +44,7 @@ llm			AAAA	2601:645:8105:e060:875:ba69:9c7b:447a
 localhost		A	127.0.0.1
 			AAAA	::1
 melkor			A	10.9.9.30
-			AAAA	2601:645:8105:e060:875:ba69:9c7b:447a
+			AAAA	2601:645:8105:e060:ca9:9938:e33a:c4a8
 nas			A       10.9.9.80
 			AAAA    2601:645:8105:e060:0:ff:fe00:50
 noble			A	10.9.9.95
@@ -60,7 +60,7 @@ ns-ovh			A	51.75.53.19
 ns-vultr		A	158.247.194.13
 			AAAA	2401:c080:1c00:29d6::
 nuada			A	10.9.9.60
-			AAAA	2601:645:8105:e060:c0e:523f:3b69:19b5
+			AAAA	2601:645:8105:e060:149f:c597:9b3e:93ee
 pve			A	10.9.9.42
 			AAAA	2601:645:8105:e060::2a
 $ORIGIN pve.nono.io.
