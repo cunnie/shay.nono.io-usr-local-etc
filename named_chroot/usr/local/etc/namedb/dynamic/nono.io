@@ -1,7 +1,7 @@
 $ORIGIN .
 $TTL 300	; 5 minutes
 nono.io			IN SOA	ns-he.nono.io. briancunnie.gmail.com. (
-				1794365432 ; serial
+				1795182854 ; serial
 				600        ; refresh (10 minutes)
 				300        ; retry (5 minutes)
 				604800     ; expire (1 week)
@@ -9,13 +9,20 @@ nono.io			IN SOA	ns-he.nono.io. briancunnie.gmail.com. (
 				)
 			NS	ns-he.nono.io.
 			NS	ns-vultr.nono.io.
-			A	78.46.204.247
+			A     185.199.108.153
+			A     185.199.109.153
+			A     185.199.110.153
+			A     185.199.111.153
+			AAAA  2606:50c0:8000::153
+			AAAA  2606:50c0:8001::153
+			AAAA  2606:50c0:8002::153
+			AAAA  2606:50c0:8003::153
 			MX	10 mail.protonmail.ch.
 			TXT	"v=spf1 include:_spf.protonmail.ch mx -all"
 			TXT	"protonmail-verification=b436783699a0193f50f95f63e069bb04b0ccec5f"
-			AAAA	2a01:4f8:c17:b8f::2
 $ORIGIN nono.io.
 _dmarc			TXT	"v=DMARC1; p=reject; rua=mailto:yoyo@nono.io"
+_github-pages-challenge-cunnie 	TXT "0253265beb6785e53f98a507a7bf95"
 $ORIGIN _domainkey.nono.io.
 protonmail		CNAME	protonmail.domainkey.dpxfut4a5wa5rl55p2q5ghiiyozieqieg5zl3wsydxdvop4hmiokq.domains.proton.ch.
 protonmail2		CNAME	protonmail2.domainkey.dpxfut4a5wa5rl55p2q5ghiiyozieqieg5zl3wsydxdvop4hmiokq.domains.proton.ch.
